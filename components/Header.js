@@ -3,7 +3,9 @@ import Link from 'next/link'
 function SubstanceLogo() {
   return (
     <div className="sc-substance-logo">
-      LE SUBSTANCE LOGO
+      <Link href="/">
+        <a><img src="/static/images/substance-logo.svg" height="30"></img></a>
+      </Link>
     </div>
   )
 }
@@ -11,7 +13,7 @@ function SubstanceLogo() {
 function SubstanceMenu() {
   return (
     <div className="sc-menu">
-      <Link href="/">
+      <Link href="/products">
         <a className="sc-menu-link">Products</a>
       </Link>
       <Link href="/about">
@@ -30,7 +32,7 @@ function SubstanceMenu() {
 export default function Header() {
   return (
     <div className="sc-header">
-      <div className="sc-header-content">
+      <div className="se-header-container">
         <SubstanceLogo></SubstanceLogo>
         <SubstanceMenu></SubstanceMenu>
       </div>
