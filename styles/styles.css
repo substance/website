@@ -96,3 +96,24 @@
   text-align: center;
   font-size: var(--big-font-size);
 }
+
+/* 
+  Footer
+  ---------------------------------
+*/
+
+.sc-footer {
+  background: blue;
+}
+
+.sc-footer .se-footer-container {
+  width: var(--content-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.sc-footer .se-footer-container .se-col {
+
+}
