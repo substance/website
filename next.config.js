@@ -4,7 +4,7 @@ module.exports = withCSS({
   cssLoaderOptions: {
     url: false
   },
-  exportPathMap: function() {
+  exportPathMap: function () {
     return {
       '/': { page: '/' }
     }
