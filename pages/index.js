@@ -1,7 +1,6 @@
 import Layout from '../components/MyLayout.js'
 import Body from '../components/Body.js'
 import Teaser from '../components/Teaser.js'
-import Link from 'next/link'
 
 export default function Index () {
   return (
