@@ -14,6 +14,14 @@
 }
 
 /*
+  External fonts
+  ---------------------------------
+*/
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/brands.css');
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/fontawesome.css');
+
+/*
   Body
   ---------------------------------
 */
@@ -103,17 +111,93 @@
 */
 
 .sc-footer {
-  background: blue;
+  padding: 4rem 2rem;
+  background: #fff;
 }
 
 .sc-footer .se-footer-container {
   width: var(--content-width);
   margin: 0 auto;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.sc-footer .se-footer-container .se-footer-menu {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.sc-footer .se-footer-container .se-footer-menu .se-col .nav-header {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #333;
+}
+
+.sc-footer .se-footer-container .se-footer-menu .se-col .nav-item a {
+  text-decoration: none;
+  color: #717171;
+}
+
+.sc-footer .se-footer-container .se-footer-menu .se-col:last-child {
+  width: 100px;
+}
+
+.sc-footer .sc-substance-logo img {
+  filter: invert(10);
+}
+
+.sc-footer .se-footer-container .se-footer-second-menu {
+  display: flex;
+  padding: 0 1.0rem;
+  color: #bababa;
+}
+
+.sc-footer .se-footer-container .se-footer-second-menu .item {
+  margin-right: 2.6rem;
+}
+
+.sc-footer .se-footer-container .se-footer-second-menu .item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sc-footer .se-footer-container .se-footer-second-menu .social-item {
+  margin-left: 1rem;
+}
+
+.sc-footer .se-footer-container .se-footer-second-menu .social-item a {
+  font-size: 14px;
+  color: #6B6B6B;
+}
+
+/* 
+  Columns
+  ---------------------------------
+*/
+
+.sm-columns {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
 
-.sc-footer .se-footer-container .se-col {
+.sm-columns .se-col {
+  display: block;
+  flex: 1 1 auto;
+  margin-left: 0;
+  max-width: 100%;
+  width: 100%;
+}
 
+@media (min-width: 40rem) {
+  .sm-columns .se-col {
+    margin-bottom: inherit;
+    padding: 0 1.0rem;
+  }
+}
+
+.sm-spacer {
+  -webkit-box-flex: 1!important;
+  -ms-flex-positive: 1!important;
+  flex-grow: 1!important;
 }
