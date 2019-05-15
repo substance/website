@@ -48,7 +48,8 @@
 */
 
 .sc-layout {
-  font-family: var(--heading-font);
+  font-family: var(--content-font);
+  font-weight: 300;
   line-height: var(--default-line-height);
   -webkit-font-smoothing: antialiased;
 }
