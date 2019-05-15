@@ -8,5 +8,6 @@ module.exports = withCSS({
     return {
       '/': { page: '/' }
     }
-  }
+  },
+  target: 'serverless'
 })
