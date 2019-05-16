@@ -79,7 +79,7 @@
   margin-bottom: var(--text-spacing);
 }
 
-.sc-section p a {
+.sc-section a {
   color: inherit;
 }
 
@@ -393,6 +393,25 @@
 }
 
 /* 
+  Contributors
+  ---------------------------------
+*/
+
+.sc-contributor {
+  display: flex;
+  margin: var(--default-spacing) 0;
+}
+
+.sc-contributor .se-image {
+  margin-left: var(--default-spacing);
+}
+
+.sc-contributor .se-image img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+/* 
   Read More link
   ---------------------------------
 */
@@ -494,4 +513,27 @@
 .se-note {
   color: #ccc;
   padding: var(--default-spacing) var(--double-spacing);
+}
+
+/* 
+  Story Page
+  ---------------------------------
+*/
+
+.se-empty-teaser {
+  height: 200px;
+}
+
+.se-shifted-image {
+  position: relative;
+  height: 250px;
+}
+
+.se-shifted-image .se-image {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -200px;
+  max-width: 100%;
 }

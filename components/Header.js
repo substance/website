@@ -19,10 +19,10 @@ function SubstanceMenu () {
       <Link href='/about'>
         <a className='sc-menu-link'>Showcases</a>
       </Link>
-      <Link href='/about'>
+      <Link href='/story'>
         <a className='sc-menu-link'>Our Story</a>
       </Link>
-      <Link href='/about'>
+      <Link href='/contact'>
         <a className='sc-menu-link'>Contact</a>
       </Link>
     </div>
