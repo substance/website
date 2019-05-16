@@ -7,6 +7,7 @@
   --dark-background-color: rgba(0,0,0,0.9);
   --light-text-color: #fff;
   --link-color: #2C47F3;
+  --tiny-font-size: 14px;
   --text-font-size: 16px;
   --medium-font-size: 22px;
   --big-font-size: 28px;
@@ -349,6 +350,56 @@
 }
 
 /* 
+  Cards
+  ---------------------------------
+*/
+
+.sc-card {
+  background: #F5F5F5;
+  margin: var(--half-spacing);
+  padding: var(--half-spacing)!important;
+  border-radius: 12px;
+}
+
+.sc-card .se-card-title {
+  font-family: var(--heading-font);
+  font-size: var(--text-font-size);
+  font-weight: 500;
+  margin: var(--half-spacing) 0;
+}
+
+.sc-card .se-card-content {
+  font-family: var(--content-font);
+  font-size: var(--tiny-font-size);
+  line-height: var(--default-line-height);
+  margin: var(--half-spacing) 0;
+  color: #4D4D4D;
+}
+
+/* 
+  Read More link
+  ---------------------------------
+*/
+
+.sc-read-more {
+  color: var(--link-color);
+  font-family: var(--heading-font);
+  font-size: var(--medium-font-size);
+  margin: var(--half-spacing) 0;
+  cursor: pointer;
+}
+
+.sc-read-more a,
+.sc-read-more a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sc-read-more i {
+  margin-right: var(--half-spacing);
+}
+
+/* 
   Main Page
   ---------------------------------
 */
@@ -406,4 +457,25 @@
 .se-read-more a {
   text-decoration: none;
   color: var(--link-color);
+}
+
+/* 
+  Texture Page
+  ---------------------------------
+*/
+
+.se-action-button {
+  background: #0ADCAD;
+  border-color: #0ADCAD;
+  color: #08401F;
+  padding: 0.5rem 3rem;
+  font-family: var(--heading-font);
+  font-size: var(--text-font-size);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.se-note {
+  color: #ccc;
+  padding: var(--default-spacing) var(--double-spacing);
 }
