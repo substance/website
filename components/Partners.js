@@ -43,7 +43,7 @@ const PARTNERS = [
     title: 'HighWire Press',
     url: 'https://highwirepress.com',
     logo: 'highwire-logo.png',
-    texture: true
+    texture: false
   }, {
     title: 'University of California Curation Center',
     url: 'https://www.cdlib.org/services/uc3/index.html',

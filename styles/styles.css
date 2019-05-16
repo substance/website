@@ -167,6 +167,18 @@
   max-width: 100%;
 }
 
+.sc-teaser .se-teaser-quote {
+  padding-bottom: var(--default-spacing);
+}
+
+.sc-teaser .se-teaser-quote .se-teaser-quote-content {
+  font-style: italic;
+}
+
+.sc-teaser .se-teaser-quote .se-teaser-quote-author {
+  margin: var(--default-spacing) 0 0;
+}
+
 /* 
   Footer
   ---------------------------------
