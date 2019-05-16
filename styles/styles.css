@@ -163,6 +163,10 @@
   padding: 0 var(--double-spacing) var(--default-spacing);
 }
 
+.sc-teaser .se-teaser-image img {
+  max-width: 100%;
+}
+
 /* 
   Footer
   ---------------------------------

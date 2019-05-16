@@ -3,8 +3,8 @@ import Layout from '../components/MyLayout.js'
 import Body from '../components/Body.js'
 import Section from '../components/Section.js'
 import Teaser from '../components/Teaser.js'
-import { List, ListItem} from '../components/List.js'
-import { FAQ, FAQItem} from '../components/FAQ.js'
+import { List, ListItem } from '../components/List.js'
+import { FAQ, FAQItem } from '../components/FAQ.js'
 
 export default function Publishing () {
   return (
