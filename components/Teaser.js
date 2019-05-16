@@ -2,6 +2,9 @@ export default function Teaser (props) {
   return (
     <div className='sc-teaser'>
       <div className='se-teaser-container'>
+        <div className='se-teaser-title'>
+          {props.title}
+        </div>
         <div className='se-teaser-headline'>
           {props.headline}
         </div>

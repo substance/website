@@ -8,6 +8,7 @@
   --light-text-color: #fff;
   --link-color: #2C47F3;
   --text-font-size: 16px;
+  --medium-font-size: 22px;
   --big-font-size: 28px;
   --large-font-size: 36px;
   --content-width: 770px;
@@ -27,6 +28,7 @@
 */
 @import url('https://rsms.me/inter/inter.css');
 @import url('https://use.fontawesome.com/releases/v5.8.2/css/brands.css');
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/solid.css');
 @import url('https://use.fontawesome.com/releases/v5.8.2/css/fontawesome.css');
 
 /*
@@ -139,6 +141,7 @@
 .sc-teaser {
   color: #fff;
   background: var(--dark-background-color);
+  text-align: center;
 }
 
 .sc-teaser .se-teaser-container {
@@ -146,13 +149,17 @@
   max-width: var(--content-width);
 }
 
+.sc-teaser .se-teaser-title {
+  font-family: var(--heading-font);
+  line-height: var(--default-line-height);
+  font-size: var(--large-font-size);
+}
+
 .sc-teaser .se-teaser-headline {
   font-family: var(--heading-font);
-  line-height: 1.7em;
-  font-weight: 500;
-  padding: var(--default-spacing) var(--double-spacing);
-  text-align: center;
   font-size: var(--big-font-size);
+  line-height: var(--default-line-height);
+  padding: 0 var(--double-spacing) var(--default-spacing);
 }
 
 /* 
@@ -255,6 +262,71 @@
   -webkit-box-flex: 1!important;
   -ms-flex-positive: 1!important;
   flex-grow: 1!important;
+}
+
+/* 
+  Lists
+  ---------------------------------
+*/
+
+.sc-list-item {
+  display: flex;
+  margin: var(--default-spacing) 0;
+}
+
+.sc-list-item .se-list-item-symbol {
+  font-family: var(--heading-font);
+  font-size: var(--large-font-size);
+  line-height: 1em;
+}
+
+.sc-list-item .se-list-item-content {
+  margin-left: var(--default-spacing);
+}
+
+.sc-list-item .se-list-item-content .se-list-item-headline {
+  font-family: var(--heading-font);
+  font-size: var(--medium-font-size);
+  line-height: var(--default-line-height);
+}
+
+.sc-list-item .se-list-item-content .se-list-item-text {
+  font-size: var(--text-font-size);
+}
+
+/* 
+  FAQ
+  ---------------------------------
+*/
+
+.sc-faq-item {
+  border-top: 1px solid #EDEDED;
+  padding: var(--half-spacing) var(--half-spacing);
+}
+
+.sc-faq-item:last-child {
+  border-bottom: 1px solid #EDEDED;
+}
+
+.sc-faq-item .se-faq-item-header {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--heading-font);
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.sc-faq-item .se-faq-item-content {
+  max-height: 0;
+  margin-top: 0;
+  overflow: hidden;
+  transition: .5s ease-in-out;
+}
+
+.sc-faq-item .se-faq-item-content.sm-opened {
+  margin-top: var(--half-spacing);
+  max-height: 600px;
 }
 
 /* 
