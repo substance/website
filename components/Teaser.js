@@ -1,4 +1,3 @@
-
 export default function Teaser (props) {
   return (
     <div className='sc-teaser'>

@@ -13,7 +13,8 @@
   --content-width: 770px;
   --content-font: 'Inter', Arial;
   --heading-font: 'Avenir';
-  --default-line-height: 1.5em;
+  --default-line-height: 1.6em;
+  --default-font-weight: 400;
   --text-spacing: 1rem;
   --default-spacing: 2rem;
   --half-spacing: 1rem;
@@ -49,7 +50,7 @@
 
 .sc-layout {
   font-family: var(--content-font);
-  font-weight: 300;
+  font-weight: var(--default-font-weight);
   line-height: var(--default-line-height);
   -webkit-font-smoothing: antialiased;
 }
@@ -64,6 +65,7 @@
 }
 
 .sc-section .se-section-headline {
+  font-family: var(--heading-font);
   font-size: var(--large-font-size);
   line-height: var(--default-line-height);
   text-align: center;
@@ -253,6 +255,25 @@
   -webkit-box-flex: 1!important;
   -ms-flex-positive: 1!important;
   flex-grow: 1!important;
+}
+
+/* 
+  Partners
+  ---------------------------------
+*/
+
+.sc-partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sc-partners > .sc-partner-logo {
+  padding: 0 var(--half-spacing);
+}
+
+.sc-partners > .sc-partner-logo img {
+  height: 60px;
 }
 
 /* 

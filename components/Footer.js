@@ -14,27 +14,27 @@ export default function Footer () {
           </div>
           <div className='se-col'>
             <div className='nav-header'>Products</div>
-            <div className='nav-item'><a href='/texture'>Texture</a></div>
-            <div className='nav-item'><a href='/dar'>DAR</a></div>
-            <div className='nav-item'><a href='/substance-js'>Substance.js</a></div>
+            <div className='nav-item'><Link href='/texture'><a>Texture</a></Link></div>
+            <div className='nav-item'><Link href='/dar'><a>DAR</a></Link></div>
+            <div className='nav-item'><Link href='/substance-js'><a>Substance.js</a></Link></div>
           </div>
           <div className='se-col'>
             <div className='nav-header'>Solutions</div>
-            <div className='nav-item'><a href='/publishing'>Journal Publishing</a></div>
-            <div className='nav-item'><a href='/repro-docs'>Reproducible Documents</a></div>
+            <div className='nav-item'><Link href='/publishing'><a>Journal Publishing</a></Link></div>
+            <div className='nav-item'><Link href='/repro-docs'><a>Reproducible Documents</a></Link></div>
           </div>
           <div className='se-col'>
             <div className='nav-header'>Company</div>
-            <div className='nav-item'><a href='/story'>Our Story</a></div>
-            <div className='nav-item'><a href='/contact'>Contact</a></div>
+            <div className='nav-item'><Link href='/story'><a>Our Story</a></Link></div>
+            <div className='nav-item'><Link href='/contact'><a>Contact</a></Link></div>
           </div>
         </div>
         <div className='se-footer-second-menu'>
           <div className='item'>
             ©{new Date().getFullYear()} Substance
           </div>
-          <div className='item'><a href='/terms'>Terms</a></div>
-          <div className='item'><a href='/privacy'>Privacy</a></div>
+          <div className='item'><Link href='/terms'><a>Terms</a></Link></div>
+          <div className='item'><Link href='/privacy'><a>Privacy</a></Link></div>
           <div className='sm-spacer' />
           <div className='social-item'>
             <a href='https://github.com/substance'>

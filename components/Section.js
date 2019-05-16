@@ -1,4 +1,3 @@
-
 export default function Section (props) {
   return (
     <div className='sc-section'>
