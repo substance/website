@@ -26,6 +26,7 @@ export default function Footer () {
           <div className='se-col'>
             <div className='se-nav-header'>Company</div>
             <div className='se-nav-item'><Link href='/story'><a>Our Story</a></Link></div>
+            <div className='se-nav-item'><Link href='/consortium'><a>Consortium</a></Link></div>
             <div className='se-nav-item'><Link href='/contact'><a>Contact</a></Link></div>
           </div>
         </div>
