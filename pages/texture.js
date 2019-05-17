@@ -1,14 +1,14 @@
 import Link from 'next/link'
-import Layout from '../components/MyLayout.js'
-import Body from '../components/Body.js'
-import Section from '../components/Section.js'
-import Teaser from '../components/Teaser.js'
-import { Card, Cards } from '../components/Cards.js'
-import ReadMore from '../components/ReadMore.js'
+import Layout from '../components/Layout'
+import Body from '../components/Body'
+import Section from '../components/Section'
+import Teaser from '../components/Teaser'
+import { Card, Cards } from '../components/Cards'
+import ReadMore from '../components/ReadMore'
 
 export default function Texture () {
   return (
-    <Layout>
+    <Layout title='Texture'>
       <Teaser title='Texture' headline='A visual editor for research.'>
         <div className='se-teaser-image'>
           <img className='se-image' src='/static/images/texture-manuscript.png' />

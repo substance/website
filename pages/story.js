@@ -1,9 +1,9 @@
 import Link from 'next/link'
-import Layout from '../components/MyLayout.js'
-import Body from '../components/Body.js'
-import Section from '../components/Section.js'
-import Teaser from '../components/Teaser.js'
-import Contributor from '../components/Contributor.js'
+import Layout from '../components/Layout'
+import Body from '../components/Body'
+import Section from '../components/Section'
+import Teaser from '../components/Teaser'
+import Contributor from '../components/Contributor'
 
 export default function Story () {
   return (

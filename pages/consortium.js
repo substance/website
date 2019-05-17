@@ -1,14 +1,14 @@
 import Link from 'next/link'
-import Layout from '../components/MyLayout.js'
-import Body from '../components/Body.js'
-import Section from '../components/Section.js'
-import Teaser from '../components/Teaser.js'
-import { List, ListItem } from '../components/List.js'
-import Partners from '../components/Partners.js'
+import Layout from '../components/Layout'
+import Body from '../components/Body'
+import Section from '../components/Section'
+import Teaser from '../components/Teaser'
+import { List, ListItem } from '../components/List'
+import Partners from '../components/Partners'
 
 export default function Consortium () {
   return (
-    <Layout>
+    <Layout title='Substance Consortium'>
       <Teaser title='Substance Consortium'>
         <div className='se-teaser-quote'>
           <div className='se-teaser-quote-content'>“We recognize that web-based multi-party editing of structured documents is needed in the authoring, editing, and production workflows of knowledge creation, and believe that we can best ensure Substance serves all these needs by coming together to support them. We hope that by making this commitment, others will recognize that there is more to gain from jointly supporting Substance’s work rather than building local or custom solutions that cannot easily be used by others.”</div>

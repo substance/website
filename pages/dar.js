@@ -1,13 +1,13 @@
-import Layout from '../components/MyLayout.js'
-import Body from '../components/Body.js'
-import Section from '../components/Section.js'
-import Teaser from '../components/Teaser.js'
-import { List, ListItem } from '../components/List.js'
-import ReadMore from '../components/ReadMore.js'
+import Layout from '../components/Layout'
+import Body from '../components/Body'
+import Section from '../components/Section'
+import Teaser from '../components/Teaser'
+import { List, ListItem } from '../components/List'
+import ReadMore from '../components/ReadMore'
 
 export default function DAR () {
   return (
-    <Layout>
+    <Layout title='DAR'>
       <Teaser title='DAR' headline='A standards-compliant archive format for research.'>
         <div className='se-teaser-image'>
           <img className='se-image' src='/static/images/dar.png' />

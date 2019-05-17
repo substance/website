@@ -1,14 +1,14 @@
 import Link from 'next/link'
-import Layout from '../components/MyLayout.js'
-import Body from '../components/Body.js'
-import Section from '../components/Section.js'
-import Teaser from '../components/Teaser.js'
-import { List, ListItem } from '../components/List.js'
-import { FAQ, FAQItem } from '../components/FAQ.js'
+import Layout from '../components/Layout'
+import Body from '../components/Body'
+import Section from '../components/Section'
+import Teaser from '../components/Teaser'
+import { List, ListItem } from '../components/List'
+import { FAQ, FAQItem } from '../components/FAQ'
 
 export default function Publishing () {
   return (
-    <Layout>
+    <Layout title='Journal publishing'>
       <Teaser title='Journal publishing' headline='Make the switch to DAR and Texture.'>
         <div className='se-teaser-image'>
           <img className='se-image' src='/static/images/texture-cards.png' />
