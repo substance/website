@@ -6,7 +6,7 @@ export default function Footer () {
       <div className='se-footer-container'>
         <div className='se-footer-menu sm-columns'>
           <div className='se-col'>
-            <div className='sc-substance-logo'>
+            <div className='sc-substance-logo sm-inverted'>
               <Link href='/'>
                 <a><img src='/static/images/substance-logo.svg' width='130' /></a>
               </Link>

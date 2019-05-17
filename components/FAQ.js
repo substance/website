@@ -1,10 +1,13 @@
 import { Component } from 'react'
 
 export class FAQItem extends Component {
-  state = {
-    opened: false
+  constructor () {
+    super()
+    this.state = {
+      opened: false
+    }
   }
-  
+
   render () {
     const { props, state } = this
     return (
@@ -14,10 +17,10 @@ export class FAQItem extends Component {
             {props.question}
           </div>
           <div className='se-faq-item-sign'>
-            <i className={'fa fa-' + (this.state.opened ? 'minus' : 'plus')} />
+            <i className={'fa fa-' + (state.opened ? 'minus' : 'plus')} />
           </div>
         </div>
-        <div className={'se-faq-item-content ' + (this.state.opened ? 'sm-opened' : '')}>
+        <div className={'se-faq-item-content ' + (state.opened ? 'sm-opened' : '')}>
           {props.children}
         </div>
       </div>
