@@ -19,7 +19,7 @@ export default class Layout extends Component {
   }
 
   componentWillUnmount () {
-    window.removeEventListener('resize', this.handleWindowSizeChange)
+    window.removeEventListener('resize', this.handleWindowSizeChange.bind(this))
   }
 
   handleWindowSizeChange () {

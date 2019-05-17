@@ -14,12 +14,23 @@ function SubstanceLogo (props) {
 function SubstanceMenu () {
   return (
     <div className='sc-menu'>
-      <Link href='/products'>
-        <a className='sc-menu-link'>Products</a>
-      </Link>
-      <Link href='/about'>
-        <a className='sc-menu-link'>Showcases</a>
-      </Link>
+      <div className='sc-menu-link'>
+        <a className='se-menu-link'>Products</a>
+        <div className='sc-menu-popover'>
+          <div className='se-nav-header'>Products</div>
+          <div className='se-nav-item'><Link href='/texture'><a>Texture</a></Link></div>
+          <div className='se-nav-item'><Link href='/dar'><a>DAR</a></Link></div>
+          <div className='se-nav-item'><Link href='https://github.com/substance/substance'><a>Substance.js</a></Link></div>
+        </div>
+      </div>
+      <div className='sc-menu-link'>
+        <a className='se-menu-link'>Solutions</a>
+        <div className='sc-menu-popover'>
+          <div className='se-nav-header'>Solutions</div>
+          <div className='se-nav-item'><Link href='/publishing'><a>Journal Publishing</a></Link></div>
+          <div className='se-nav-item'><Link href='/repro-docs'><a>Reproducible Documents</a></Link></div>
+        </div>
+      </div>
       <Link href='/story'>
         <a className='sc-menu-link'>Our Story</a>
       </Link>
@@ -33,18 +44,30 @@ function SubstanceMenu () {
 function SubstanceMobileMenu () {
   return (
     <div className='sc-menu'>
-      <Link href='/products'>
-        <a className='sc-menu-link'>Products</a>
-      </Link>
-      <Link href='/about'>
-        <a className='sc-menu-link'>Showcases</a>
-      </Link>
-      <Link href='/story'>
-        <a className='sc-menu-link'>Our Story</a>
-      </Link>
-      <Link href='/contact'>
-        <a className='sc-menu-link'>Contact</a>
-      </Link>
+      <div className='se-first-row sm-columns'>
+        <div className='se-col'>
+          <div className='se-nav-header'>Products</div>
+          <div className='se-nav-item'><Link href='/texture'><a>Texture</a></Link></div>
+          <div className='se-nav-item'><Link href='/dar'><a>DAR</a></Link></div>
+          <div className='se-nav-item'><Link href='https://github.com/substance/substance'><a>Substance.js</a></Link></div>
+        </div>
+        <div className='se-col'>
+          <div className='se-nav-header'>Solutions</div>
+          <div className='se-nav-item'><Link href='/publishing'><a>Journal Publishing</a></Link></div>
+          <div className='se-nav-item'><Link href='/repro-docs'><a>Reproducible Documents</a></Link></div>
+        </div>
+      </div>
+      <div className='sm-divider' />
+      <div className='se-second-row sm-columns'>
+        <div className='se-col'>
+          <div className='se-nav-item'><Link href='/story'><a>Our Story</a></Link></div>
+          <div className='se-nav-item'><Link href='/terms'><a>Terms</a></Link></div>
+        </div>
+        <div className='se-col'>
+          <div className='se-nav-item'><Link href='/contact'><a>Contact</a></Link></div>
+          <div className='se-nav-item'><Link href='/privacy'><a>Privacy</a></Link></div>
+        </div>
+      </div>
     </div>
   )
 }
@@ -65,10 +88,10 @@ export default class Header extends Component {
   render () {
     const { props, state } = this
     return (
-      <div className='sc-header'>
+      <div className={'sc-header ' + (state.expanded ? 'sm-expanded' : '')}>
         <div className='se-header-container'>
           <div className='se-header-navbar'>
-            <SubstanceLogo />
+            <SubstanceLogo inverted={state.expanded} />
             <div className='sm-spacer' />
             {props.isMobile ? (
               <div className='se-hamburger' onClick={this.toggleMobileMenu.bind(this)}><i className='fa fa-bars' /></div>
