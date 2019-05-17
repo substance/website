@@ -45,9 +45,9 @@ export default function Texture () {
         <Section headline='Co-designed by scientists and publishers'>
           <p>Scientists and publishers are helping us to define new features, that best support their daily use-cases. With their input we want to take Texture further and help remove the technical pain points from publishing. So that scientists can focus fully on their research, and publishers can focus on ensuring high quality content.</p>
         </Section>
-        <Section>
-          <ReadMore href='/publishing' title='Use Texture at your journal' />
-          <ReadMore href='/dar' title='Learn more about DAR' />
+        <Section headline='Learn more'>
+          <ReadMore href='/publishing' title='Texture for publishers' />
+          <ReadMore href='/dar' title='DAR format' />
           <ReadMore href='/repro-docs' title='Reproducible documents with Texture and Stencila' />
         </Section>
       </Body>

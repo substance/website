@@ -32,9 +32,9 @@ export default function DAR () {
             </ListItem>
           </List>
         </Section>
-        <Section>
+        <Section headline='Learn more'>
+          <ReadMore href='/texture' title='Texture editor' />
           <ReadMore href='https://github.com/substance/dar' title='DAR Technical Specification' />
-          <ReadMore href='/texture' title='Texture is a visual editor for DAR' />
         </Section>
       </Body>
     </Layout>
