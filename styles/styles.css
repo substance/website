@@ -89,6 +89,21 @@ html {
   color: inherit;
 }
 
+.sc-section h3 {
+  font-family: var(--heading-font);
+  font-size: var(--medium-font-size);
+  margin: var(--half-spacing) 0 0.3rem;
+}
+
+.sc-section ul {
+  list-style: disc;
+  margin-left: var(--half-spacing);
+}
+
+.sm-centered {
+  text-align: center;
+}
+
 /* 
   Logo
   ---------------------------------
@@ -421,9 +436,14 @@ html {
 .sc-faq-item .se-faq-item-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-family: var(--heading-font);
   font-size: 1.2em;
   cursor: pointer;
+}
+
+.sc-faq-item .se-faq-item-sign i {
+  margin-left: var(--half-spacing);
 }
 
 .sc-faq-item .se-faq-item-content {
@@ -522,12 +542,13 @@ html {
 .sc-read-more a {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   cursor: pointer;
   text-decoration: none;
   color: inherit;
 }
 
-.sc-read-more i {
+.sc-read-more .se-link-sign i {
   margin-left: var(--half-spacing);
 }
 

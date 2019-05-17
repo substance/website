@@ -7,7 +7,7 @@ import Partners from '../components/Partners'
 
 export default function Index () {
   return (
-    <Layout title='Substance'>
+    <Layout title='Our Mission'>
       <Teaser headline='Substance fills the gap between writing and publishing research.'>
         <div className='se-main-figure'>
           <div className='se-circle'>Authors</div>
@@ -16,7 +16,7 @@ export default function Index () {
         </div>
       </Teaser>
       <Body>
-        <Section headline='Why?'>
+        <Section headline='Our Mission'>
           <p>We help rethink and redesign how people create and share scientific results. Because we believe anybody should be enabled to become a researcher and share their discoveries with ease.</p>
           <p>Much time and resources are spent to turn a submitted manuscript into a publication, due to incompatible formats, tools, and guidelines. It often takes many months until the content becomes available for readers.</p>
           <p>Substance helps bringing researchers and journals closer together to collaborate more efficiently. To achieve that, we are introducing <Link href='/dar'><a>DAR</a></Link>, a standard-compliant format to represent scientific publications and <Link href='/texture'><a >Texture</a></Link>, an open source editor that can be used for authoring, reviewing and copy-editing of web-first scientific publications. We believe that ultimately, this will lead to faster and more frequent sharing of results, as well as enabling a lively public discussion.</p>
