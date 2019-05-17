@@ -28,7 +28,7 @@ export default class Layout extends Component {
   render () {
     const { props, state } = this
     return (
-      <div className={'sc-layout' + (state.isMobile ? 'sm-mobile' : '')}>
+      <div className={'sc-layout ' + (state.isMobile ? 'sm-mobile' : '')}>
         <Header isMobile={state.isMobile} />
         {props.children}
         <Footer />
