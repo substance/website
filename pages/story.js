@@ -7,7 +7,7 @@ import Contributor from '../components/Contributor'
 
 export default function Story () {
   return (
-    <Layout>
+    <Layout title='Our Story'>
       <Teaser title='Our Story'>
         <div className='se-empty-teaser' />
       </Teaser>

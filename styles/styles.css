@@ -305,6 +305,7 @@ html {
 }
 
 .sc-footer .se-footer-container .se-footer-menu .se-col .se-nav-item {
+  font-weight: 400;
   margin: 0.5rem 0;
 }
 
@@ -600,6 +601,7 @@ html {
   border-color: #0ADCAD;
   color: #08401F;
   padding: 0.5rem 3rem;
+  margin: 0 var(--half-spacing);
   font-family: var(--heading-font);
   font-size: var(--text-font-size);
   border-radius: 6px;
@@ -622,7 +624,7 @@ html {
 
 .se-shifted-image {
   position: relative;
-  height: 250px;
+  height: 210px;
 }
 
 .se-shifted-image .se-image {
@@ -691,4 +693,27 @@ html {
 
 .sm-mobile .sc-footer .se-footer-container .se-copyright-menu .se-item {
   margin-bottom: 0.5rem;
+}
+
+.sm-mobile .se-empty-teaser {
+  height: 0;
+}
+
+.sm-mobile .se-shifted-image {
+  margin: var(--half-spacing);
+  height: initial;
+}
+
+.sm-mobile .se-shifted-image .se-image {
+  position: relative;
+  top: initial;
+}
+
+.sm-mobile .sc-contributor {
+  flex-direction: column-reverse;
+}
+
+.sm-mobile .sc-contributor .se-image {
+  text-align: center;
+  margin: var(--half-spacing);
 }
