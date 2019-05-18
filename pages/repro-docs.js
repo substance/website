@@ -43,7 +43,7 @@ export default function ReproDocs () {
         </Section>
         <Section headline='Learn more'>
           <ReadMore href='https://www.nature.com/articles/d41586-019-00724-7' title='Pioneering ‘live-code’ article allows scientists to play with each other’s results' />
-          <ReadMore href='https://elifesciences.org/labs/ad58f08d/introducing-elife-s-first-computationally-reproducible-article' title='Introducing eLife‘s first computationally reproducible research' />
+          <ReadMore href='https://elifesciences.org/labs/ad58f08d/introducing-elife-s-first-computationally-reproducible-article' title='Introducing eLife‘s first computationally reproducible research article' />
           <ReadMore href='https://elifesciences.org/labs/7dbeb390/reproducible-document-stack-supporting-the-next-generation-research-article' title='Reproducible Document Stack - supporting the next generation research article' />
         </Section>
       </Body>
