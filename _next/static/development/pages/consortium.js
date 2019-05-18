@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/publishing.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/consortium.js"],{
 
 /***/ "./components/Body.js":
 /*!****************************!*\
@@ -19,88 +19,6 @@ function Body(props) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "se-body-container"
   }, props.children));
-}
-
-/***/ }),
-
-/***/ "./components/FAQ.js":
-/*!***************************!*\
-  !*** ./components/FAQ.js ***!
-  \***************************/
-/*! exports provided: FAQItem, FAQ */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FAQItem", function() { return FAQItem; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FAQ", function() { return FAQ; });
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-
-
-
-
-
-
-
-var FAQItem =
-/*#__PURE__*/
-function (_Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(FAQItem, _Component);
-
-  function FAQItem() {
-    var _this;
-
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, FAQItem);
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(FAQItem).call(this));
-    _this.state = {
-      opened: false
-    };
-    return _this;
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(FAQItem, [{
-    key: "render",
-    value: function render() {
-      var props = this.props,
-          state = this.state;
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "sc-faq-item"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "se-faq-item-header",
-        onClick: this.toggle.bind(this)
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "se-faq-item-question"
-      }, props.question), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "se-faq-item-sign"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
-        className: 'fa fa-' + (state.opened ? 'minus' : 'plus')
-      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: 'se-faq-item-content ' + (state.opened ? 'sm-opened' : '')
-      }, props.children));
-    }
-  }, {
-    key: "toggle",
-    value: function toggle() {
-      var opened = this.state.opened;
-      this.setState({
-        opened: !opened
-      });
-    }
-  }]);
-
-  return FAQItem;
-}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
-function FAQ(props) {
-  return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-    className: "sc-faq"
-  }, props.children);
 }
 
 /***/ }),
@@ -590,6 +508,109 @@ function List(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sc-list"
   }, props.children);
+}
+
+/***/ }),
+
+/***/ "./components/Partners.js":
+/*!********************************!*\
+  !*** ./components/Partners.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Partners; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var PARTNERS = [{
+  title: 'Collaborative Knowledge Foundation',
+  url: 'https://coko.foundation',
+  logo: 'coko-logo.png',
+  texture: false
+}, {
+  title: 'Shuttleworth Foundation',
+  url: 'https://shuttleworthfoundation.org',
+  logo: 'shuttleworth-logo.png',
+  texture: false
+}, {
+  title: 'Stencila',
+  url: 'https://stenci.la',
+  logo: 'stencila-logo.png',
+  texture: false
+}, {
+  title: 'Infomaker',
+  url: 'https://infomaker.se',
+  logo: 'infomaker-logo.png',
+  texture: false
+}, {
+  title: 'eLife Sciences Publications',
+  url: 'https://elifesciences.org',
+  logo: 'elife-logo.png',
+  texture: true
+}, {
+  title: 'Érudit Consortium',
+  url: 'https://erudit.org',
+  logo: 'erudit-logo.png',
+  texture: true
+}, {
+  title: 'SciELO',
+  url: 'https://scielo.org',
+  logo: 'scielo-logo.png',
+  texture: true
+}, {
+  title: 'Public Knowledge Project',
+  url: 'https://pkp.sfu.ca',
+  logo: 'pkp-logo.png',
+  texture: true
+}, {
+  title: 'HighWire Press',
+  url: 'https://highwirepress.com',
+  logo: 'highwire-logo.png',
+  texture: false
+}, {
+  title: 'University of California Curation Center',
+  url: 'https://www.cdlib.org/services/uc3/index.html',
+  logo: 'uc3-logo.png',
+  texture: false
+}, {
+  title: 'EMBO',
+  url: 'https://embo.org',
+  logo: 'embo-logo.png',
+  texture: true
+}, {
+  title: 'SourceData',
+  url: 'https://sourcedata.embo.org',
+  logo: 'sourcedata-logo.png',
+  texture: true
+}];
+
+function PartnerLogo(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sc-partner-logo"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: props.partner.url,
+    title: props.partner.title,
+    target: "_blank"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: '/static/images/partners/' + props.partner.logo
+  })));
+}
+
+function Partners(props) {
+  var partnersData = props.texture ? PARTNERS.filter(function (p) {
+    return p.texture;
+  }) : PARTNERS;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sc-partners"
+  }, partnersData.map(function (p, key) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PartnerLogo, {
+      partner: p,
+      key: key
+    });
+  }));
 }
 
 /***/ }),
@@ -6815,21 +6836,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpublishing&absolutePagePath=%2FUsers%2Fdanielbeilinson%2FProjects%2Fsubstance%2Fwebsite%2Fpages%2Fpublishing.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fconsortium&absolutePagePath=%2FUsers%2Fdanielbeilinson%2FProjects%2Fsubstance%2Fwebsite%2Fpages%2Fconsortium.js!./":
 /*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpublishing&absolutePagePath=%2FUsers%2Fdanielbeilinson%2FProjects%2Fsubstance%2Fwebsite%2Fpages%2Fpublishing.js ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fconsortium&absolutePagePath=%2FUsers%2Fdanielbeilinson%2FProjects%2Fsubstance%2Fwebsite%2Fpages%2Fconsortium.js ***!
   \**********************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/publishing", function() {
-      var page = __webpack_require__(/*! ./pages/publishing.js */ "./pages/publishing.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/consortium", function() {
+      var page = __webpack_require__(/*! ./pages/consortium.js */ "./pages/consortium.js")
       if(true) {
-        module.hot.accept(/*! ./pages/publishing.js */ "./pages/publishing.js", function() {
-          if(!next.router.components["/publishing"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/publishing.js */ "./pages/publishing.js")
-          next.router.update("/publishing", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/consortium.js */ "./pages/consortium.js", function() {
+          if(!next.router.components["/consortium"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/consortium.js */ "./pages/consortium.js")
+          next.router.update("/consortium", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -11074,16 +11095,16 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/publishing.js":
+/***/ "./pages/consortium.js":
 /*!*****************************!*\
-  !*** ./pages/publishing.js ***!
+  !*** ./pages/consortium.js ***!
   \*****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Publishing; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Consortium; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
@@ -11093,7 +11114,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Section__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Section */ "./components/Section.js");
 /* harmony import */ var _components_Teaser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Teaser */ "./components/Teaser.js");
 /* harmony import */ var _components_List__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/List */ "./components/List.js");
-/* harmony import */ var _components_FAQ__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/FAQ */ "./components/FAQ.js");
+/* harmony import */ var _components_Partners__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Partners */ "./components/Partners.js");
 
 
 
@@ -11102,94 +11123,59 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function Publishing() {
+function Consortium() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "Journal Publishing",
-    activeMenu: "solutions"
+    title: "Substance Consortium",
+    activeMenu: "company"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Teaser__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    title: "Journal Publishing",
-    headline: "Make the switch to DAR and Texture."
+    title: "Substance Consortium"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "se-teaser-image"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "se-image",
-    src: "/static/images/texture-cards.png"
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Body__WEBPACK_IMPORTED_MODULE_3__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Section__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    headline: "The benefits of DAR and Texture"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "With ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/dar"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "DAR")), ", a standards-compliant archive format for journal articles and ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/texture"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Texture")), ", an open source visual editor for research, we aim to simultaneously streamline workflow processes and significantly reduce production costs at journals. Our editor resembles traditional word processing applications, but operates on an XML document in the background. By enabling a broad set of actors to work directly on the XML manuscript at all stages, Texture removes the need for XML experts and the need for the final content conversion step for which publishers today largely rely on expensive third-party support.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Section__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    headline: "Enabling a modern end to end publishing workflow"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["List"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["ListItem"], {
-    symbol: "1",
-    headline: "Submission"
-  }, "Article comes in as a DAR file directly, or it is converted from a DOCX file."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["ListItem"], {
-    symbol: "2",
-    headline: "Peer-review"
-  }, "Multiple review iterations are done by reviewers and authors using Texture for commenting and re-submission."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["ListItem"], {
-    symbol: "3",
-    headline: "Initial production"
-  }, "Production staff uses Texture to edit content and metadata of the document."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["ListItem"], {
-    symbol: "4",
-    headline: "Author proofing"
-  }, "Authors log in at the publisher's website and use Texture to respond to queries, make final changes and approve the article for publication."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["ListItem"], {
-    symbol: "5",
-    headline: "Final production"
-  }, "Final changes are made to the document by the production staff. A quality checking process is performed using Texture. Now the paper is ready for publication."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Section__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    headline: "Advantages"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["List"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["ListItem"], {
-    headline: "Visual editing"
-  }, "Full article can be edited in a familiar word processor interface. No longer manual changes to the JATS-XML source have to be made."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["ListItem"], {
-    headline: "Automatic formatting and label generation"
-  }, "With Texture, references are formatted automatically. Furthermore, labels cross references,  figures, tables and footnotes are generated automatically. No longer those have to be manually checked."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["ListItem"], {
-    headline: "A single source of information"
-  }, "Article is represented in DAR format through the whole publishing process. This makes costly conversion processes obsolete."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["ListItem"], {
-    headline: "Parallelised workflow"
-  }, "Article can be received and selected earlier (during draft stage). A first quick review round can be done, and if accepted, the production team can already start with editing the content and metadata. In parallel a second review round can be started to finalise the content."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["ListItem"], {
-    headline: "Assisted assignment of IDs"
-  }, "DOI, ORCID, FundRef can be done using the interface supporting a verification process."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["ListItem"], {
-    headline: "Semantic tagging of concepts"
-  }, "Concepts, such as gene sequences can be tagged using the interface and even linked with a defined vocabulary."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["ListItem"], {
-    headline: "Community-led development"
-  }, "Texture is open source software and development is supported by a ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/consortium"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "consortium")), " of publishers."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Section__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    headline: "Frequently Asked Questions"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FAQ__WEBPACK_IMPORTED_MODULE_7__["FAQ"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FAQ__WEBPACK_IMPORTED_MODULE_7__["FAQItem"], {
-    question: "How can I use Texture at my journal?"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Texture can be used stand-alone as a desktop application to read and write .dar files. However, journals can benefit the most from Texture when it is integrated into their journal management system. A journal management system provides an authentication system with permissions, workflows for different stages of the publishing process and an article overview page, the dashboard. Texture on the other hand takes care of all editing needs and can be configured to provide optimised interfaces for submission, production editing, author proofing, etc."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "With ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "https://pkp.sfu.ca/ojs"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Open Journal System")), " (OJS) there is an existing solution that includes Texture for editing JATS XML articles. Texture has been integrated as a plugin. It activates visual authoring, editing and proofing within the OJS web platform."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "eLife is developing ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "https://libero.pub"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Libero")), " a novel tool set enabling an end-to-end open source publishing process. Texture is being integrated to support different stages of the production process, including author proofing, production QC and peer review."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Please ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    className: "se-teaser-quote"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "se-teaser-quote-content"
+  }, "\u201CWe recognize that web-based multi-party editing of structured documents is needed in the authoring, editing, and production workflows of knowledge creation, and believe that we can best ensure Substance serves all these needs by coming together to support them. We hope that by making this commitment, others will recognize that there is more to gain from jointly supporting Substance\u2019s work rather than building local or custom solutions that cannot easily be used by others.\u201D"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "se-teaser-quote-author"
+  }, "\u2013 Juan Pablo Alperin"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Body__WEBPACK_IMPORTED_MODULE_3__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Section__WEBPACK_IMPORTED_MODULE_4__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "In 2016 a diverse group of organizations joined to create a consortium responsible for supporting the development and maintenance of Substance.js and Texture. The consortium is currently made up of an open source software development group (the ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "https://pkp.sfu.ca"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Public Knowledge Project")), "; PKP), two journal aggregation and dissemination platforms (", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "https://erudit.org"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Erudit")), " and ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "https://scielo.org"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "SciELO")), "), an innovative publisher (", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "https://elifesciences.org"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "eLife")), "), and a data discovery platform (", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "https://sourcedata.embo.org"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "EMBO SourceData")), "). Despite their differences, the Substance Consortium operates under the shared belief that a robust open source XML editor will be beneficial for the scholarly community at large.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Section__WEBPACK_IMPORTED_MODULE_4__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Partners__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    texture: "true"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Section__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    headline: "Goals"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The goal of the Substance Consortium is simple: to ensure the continued development and support of Substance by creating a community of stakeholders who will support and engage with Substance on an ongoing basis. By ensuring the long-term support of Substance, organizations that want to use Substance-based tools can be confident that it will be properly supported in the future. And, the Consortium is an acknowledgement that the organizations who use these tools as critical infrastructure have a responsibility to contribute to their upkeep."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "In July 2016 the members met in Montreal to discuss the goals, structure, and principles of the Substance Consortium. The group articulated these foundational principles:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["List"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["ListItem"], {
+    headline: "Open Source"
+  }, "Substance.js and Texture will continue to be licensed as open source."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["ListItem"], {
+    headline: "Reliability"
+  }, "Reliability: Ensure ongoing support and maintenance of Texture and Substance.js."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["ListItem"], {
+    headline: "Support"
+  }, "The tools will be supported with quality documentation and trainings."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["ListItem"], {
+    headline: "Persistence"
+  }, "Substance.js and Texture will be hosted and available long-term."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_6__["ListItem"], {
+    headline: "Transparency"
+  }, "Done correctly, with an advisory board and reports on finances and key decisions"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Section__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    headline: "Become a member"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "We very open to welcome new members who are commited to integrate Texture into their workflows and support its development. Please ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/contact"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "contact us")), " so we can discuss how a solution for your journal could look like.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FAQ__WEBPACK_IMPORTED_MODULE_7__["FAQItem"], {
-    question: "I\u2019m missing a feature, how can I contribute?"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "At first please have a look at the existing ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "https://github.com/substance/texture/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "feature requests")), " on Github. It\u2019s likely your desired feature is already on the roadmap. If not, you can file a new feature request ticket. Please carefully follow the guidelines outlined in the template, it\u2019s important to have correct user stories attached, so we are able to come up with a solution proposal quickly. Don\u2019t hesitate to contact us, and we will figure out how we can get your use-case covered.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FAQ__WEBPACK_IMPORTED_MODULE_7__["FAQItem"], {
-    question: "How can I edit my existing JATS files?"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "In order to open a file in Texture it needs to be represented as a ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/dar"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "DAR")), " file. The article contents are stored in a file manuscript.xml, that follows a stricter schema of JATS, called TextureJATS, which serves as a pure source format, optimised for machine readability. In order to make your existing files conform to that schema, you may need to provide a conversion step, which is usually trivial but necessary, since every journal uses a slightly different flavour of JATS. Please ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/contact"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "contact us")), " to learn how a converter can be set up for your journal.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FAQ__WEBPACK_IMPORTED_MODULE_7__["FAQItem"], {
-    question: "Can I export a PDF version?"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "No, PDF Export is not a part of the Texture editor. Journals typically have different PDF layouts and most of them have a typesetting solution already, based on the JATS XML file."))))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "contact us")), " and we\u2019ll set up a call to discuss how to get you on board."))));
 }
 
 /***/ }),
 
-/***/ 0:
+/***/ 8:
 /*!**************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fpublishing&absolutePagePath=%2FUsers%2Fdanielbeilinson%2FProjects%2Fsubstance%2Fwebsite%2Fpages%2Fpublishing.js ***!
+  !*** multi next-client-pages-loader?page=%2Fconsortium&absolutePagePath=%2FUsers%2Fdanielbeilinson%2FProjects%2Fsubstance%2Fwebsite%2Fpages%2Fconsortium.js ***!
   \**************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fpublishing&absolutePagePath=%2FUsers%2Fdanielbeilinson%2FProjects%2Fsubstance%2Fwebsite%2Fpages%2Fpublishing.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpublishing&absolutePagePath=%2FUsers%2Fdanielbeilinson%2FProjects%2Fsubstance%2Fwebsite%2Fpages%2Fpublishing.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fconsortium&absolutePagePath=%2FUsers%2Fdanielbeilinson%2FProjects%2Fsubstance%2Fwebsite%2Fpages%2Fconsortium.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fconsortium&absolutePagePath=%2FUsers%2Fdanielbeilinson%2FProjects%2Fsubstance%2Fwebsite%2Fpages%2Fconsortium.js!./");
 
 
 /***/ }),
@@ -11205,5 +11191,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=publishing.js.map
+},[[8,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=consortium.js.map
