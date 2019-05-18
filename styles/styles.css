@@ -782,3 +782,11 @@ html {
   text-align: center;
   margin: var(--half-spacing);
 }
+
+.sm-mobile .sc-card .se-card-title {
+  margin-top: 0;
+}
+
+.sm-mobile .sc-card .se-card-content {
+  margin-bottom: 0;
+}
