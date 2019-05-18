@@ -360,7 +360,7 @@ html {
 }
 
 .sc-footer .se-footer-container .se-footer-second-menu .se-item {
-  margin-right: 2.6rem;
+  margin-right: 2.0rem;
 }
 
 .sc-footer .se-footer-container .se-footer-second-menu .se-item a {
@@ -755,6 +755,7 @@ html {
 }
 
 .sm-mobile .sc-footer .se-footer-container .se-footer-menu .se-col {
+  text-align: center;
   width: 100%;
   margin: 0 var(--half-spacing) 0 0;
 }
@@ -775,9 +776,9 @@ html {
   display: none;
 }
 
-.sm-mobile .sc-footer .se-footer-container .se-copyright-menu {
+/* .sm-mobile .sc-footer .se-footer-container .se-copyright-menu {
   flex-direction: column;
-}
+} */
 
 .sm-mobile .sc-footer .se-footer-container .se-copyright-menu .se-item {
   margin-bottom: 0.5rem;

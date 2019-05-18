@@ -33,7 +33,7 @@ export default function Footer () {
         <div className='se-footer-second-menu'>
           <div className='se-copyright-menu'>
             <div className='se-item'>
-              ©{new Date().getFullYear()} Substance
+              © {new Date().getFullYear()} Substance
             </div>
             <div className='se-item'><Link href='/terms'><a>Terms</a></Link></div>
             <div className='se-item'><Link href='/privacy'><a>Privacy</a></Link></div>
