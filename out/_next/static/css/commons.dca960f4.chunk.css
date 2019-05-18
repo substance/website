@@ -730,6 +730,10 @@ html {
   padding: var(--half-spacing) 0;
 }
 
+.sm-mobile .sc-header .se-header-container .se-header-navbar {
+  margin: 0 var(--half-spacing);
+}
+
 .sm-mobile .sc-teaser .se-teaser-title {
   padding: 0 var(--half-spacing);
 }
