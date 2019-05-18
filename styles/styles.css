@@ -300,7 +300,7 @@ html {
 }
 
 .sc-teaser .se-teaser-quote {
-  padding-bottom: var(--default-spacing);
+  padding: 0 var(--default-spacing) var(--default-spacing);
 }
 
 .sc-teaser .se-teaser-quote .se-teaser-quote-content {
@@ -496,7 +496,7 @@ html {
 }
 
 .sc-partners > .sc-partner-logo {
-  padding: 0 var(--half-spacing);
+  padding: var(--half-spacing);
 }
 
 .sc-partners > .sc-partner-logo img {
@@ -686,7 +686,7 @@ html {
 }
 
 .sm-mobile .sc-partners > .sc-partner-logo {
-  padding: 0 0.5rem;
+  padding: 0.5rem;
 }
 
 .sm-mobile .sc-partners > .sc-partner-logo img {
@@ -735,6 +735,10 @@ html {
 
 .sm-mobile .sc-teaser .se-teaser-headline {
   padding: var(--half-spacing);
+}
+
+.sm-mobile .sc-teaser .se-teaser-quote {
+  padding: 0 var(--half-spacing) var(--half-spacing);
 }
 
 .sm-mobile .sc-footer {

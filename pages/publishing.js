@@ -58,7 +58,7 @@ export default function Publishing () {
               Concepts, such as gene sequences can be tagged using the interface and even linked with a defined vocabulary.
             </ListItem>
             <ListItem headline='Community-led development'>
-              Texture is open source software and development is supported by a consortium of publishers.
+              Texture is open source software and development is supported by a <Link href='/consortium'><a>consortium</a></Link> of publishers.
             </ListItem>
           </List>
         </Section>
