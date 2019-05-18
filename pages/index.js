@@ -37,7 +37,7 @@ export default function Index () {
               <div className='se-description'>
                 Make the switch to DAR and Texture <br />at your journal and increase the <br />speed and quality of your <br />production workflow.
               </div>
-              <div className='se-read-more'><a href='/dar'>Learn more</a></div>
+              <div className='se-read-more'><a href='/publishing'>Learn more</a></div>
             </div>
           </div>
         </Section>
