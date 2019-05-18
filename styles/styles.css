@@ -696,7 +696,7 @@ html {
 
 .sm-mobile .sc-menu {
   flex-direction: column;
-  margin: 0 var(--half-spacing);
+  margin: 0;
 }
 
 .sm-mobile .sc-menu a {
@@ -727,7 +727,7 @@ html {
 }
 
 .sm-mobile .sc-header .se-header-container {
-  padding: var(--half-spacing) 0;
+  padding: 0;
 }
 
 .sm-mobile .sc-header .se-header-container .se-header-navbar {
