@@ -359,20 +359,26 @@ function SubstanceMobileMenu() {
   }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
     className: "se-col"
   }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "se-nav-header"
+  }, "Company"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
     className: "se-nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
     href: "/story"
   }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", null, "Our Story"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
     className: "se-nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-    href: "/terms"
-  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", null, "Terms")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    href: "/consortium"
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", null, "Consortium"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "se-nav-item"
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+    href: "/contact"
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", null, "Contact")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
     className: "se-col"
   }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
     className: "se-nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-    href: "/contact"
-  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", null, "Contact"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    href: "/terms"
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", null, "Terms"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
     className: "se-nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
     href: "/privacy"
@@ -385,49 +391,34 @@ function (_Component) {
   Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Header, _Component);
 
   function Header() {
-    var _this;
-
     Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Header);
 
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Header).call(this));
-    _this.state = {
-      expanded: false
-    };
-    return _this;
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Header).apply(this, arguments));
   }
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Header, [{
-    key: "toggleMobileMenu",
-    value: function toggleMobileMenu() {
-      var expanded = this.state.expanded;
-      this.setState({
-        expanded: !expanded
-      });
-    }
-  }, {
     key: "render",
     value: function render() {
-      var props = this.props,
-          state = this.state;
+      var props = this.props;
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: 'sc-header ' + (state.expanded ? 'sm-expanded' : '')
+        className: 'sc-header ' + (props.expanded ? 'sm-expanded' : '')
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "se-header-container"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "se-header-navbar"
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(SubstanceLogo, {
-        inverted: state.expanded
+        inverted: props.expanded
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "sm-spacer"
       }), props.isMobile ? react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "se-hamburger",
-        onClick: this.toggleMobileMenu.bind(this)
+        onClick: props.toggleMobileMenu
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
         className: "fa fa-bars"
       })) : react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(SubstanceMenu, {
         activeMenu: props.activeMenu
       })), function () {
-        if (state.expanded) {
+        if (props.expanded) {
           return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(SubstanceMobileMenu, {
             activeMenu: props.activeMenu
           });
@@ -493,7 +484,8 @@ function (_Component) {
 
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Layout).call(this));
     _this.state = {
-      isMobile: false
+      isMobile: false,
+      menuExpanded: false
     };
     return _this;
   }
@@ -517,12 +509,20 @@ function (_Component) {
       });
     }
   }, {
+    key: "toggleMobileMenu",
+    value: function toggleMobileMenu() {
+      var menuExpanded = this.state.menuExpanded;
+      this.setState({
+        menuExpanded: !menuExpanded
+      });
+    }
+  }, {
     key: "render",
     value: function render() {
       var props = this.props,
           state = this.state;
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: 'sc-layout ' + (state.isMobile ? 'sm-mobile' : '')
+        className: 'sc-layout ' + (state.isMobile ? 'sm-mobile' : '') + (state.menuExpanded ? ' sm-menu-active' : '')
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", null, props.title ? props.title + ' • Substance' : 'Substance'), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
         charSet: "utf-8"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
@@ -537,7 +537,9 @@ function (_Component) {
         type: "image/x-icon"
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_7__["default"], {
         isMobile: state.isMobile,
-        activeMenu: props.activeMenu
+        expanded: state.menuExpanded,
+        toggleMobileMenu: this.toggleMobileMenu.bind(this),
+        ref: "header"
       }), props.children, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_8__["default"], null));
     }
   }]);
@@ -11178,7 +11180,7 @@ function Publishing() {
 
 /***/ }),
 
-/***/ 7:
+/***/ 8:
 /*!**************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fpublishing&absolutePagePath=%2FUsers%2Fdanielbeilinson%2FProjects%2Fsubstance%2Fwebsite%2Fpages%2Fpublishing.js ***!
   \**************************************************************************************************************************************************************/
@@ -11201,5 +11203,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js","styles"]]]);
+},[[8,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=publishing.js.map
