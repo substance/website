@@ -14,11 +14,9 @@ export default function DAR () {
         </div>
       </Teaser>
       <Body>
-        <Section headline='Why?'>
-          <p>Research is currently created using print-oriented file formats such as DOCX or LaTeX. A modern published article however requires structured metadata such as authors, affiliations, references and journal information to be available. Publishers typically make use of the JATS-XML standard to capture that information. As a result a costly and slow conversion process is needed to turn a DOCX submission into structured XML.</p>
-          <p>If researchers and publishers could all use a shared file format, documents can be created and shared directly without friction. Furthermore submission, peer-review, editing and author proofing workflows can operate on the same source document, streamlining the entire publication process.</p>
-        </Section>
         <Section headline='Introducing DAR'>
+        <p>Research is currently created using print-oriented file formats such as DOCX or LaTeX. A modern published article however requires structured metadata such as authors, affiliations, references and journal information to be available. Publishers typically make use of the JATS-XML standard to capture that information. As a result a costly and slow conversion process is needed to turn a DOCX submission into structured XML.</p>
+          <p>If researchers and publishers could all use a shared file format, documents can be created and shared directly without friction. Furthermore submission, peer-review, editing and author proofing workflows can operate on the same source document, streamlining the entire publication process.</p>
           <p>A Document ARchive (.dar) is essentially a zip archive, containing the manuscript as a standard JATS XML file, as well as additional assets such as images and data files. It is built around the following design goals:</p>
           <List>
             <ListItem headline='Standard-compliant'>

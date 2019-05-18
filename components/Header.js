@@ -15,7 +15,7 @@ function SubstanceMenu () {
   return (
     <div className='sc-menu'>
       <div className='sc-menu-link'>
-        <a className='se-menu-link'>Products</a>
+        <a href='#' className='se-menu-link'>Products</a>
         <div className='sc-menu-popover'>
           <div className='se-nav-header'>Products</div>
           <div className='se-nav-item'><Link href='/texture'><a>Texture</a></Link></div>
@@ -24,7 +24,7 @@ function SubstanceMenu () {
         </div>
       </div>
       <div className='sc-menu-link'>
-        <a className='se-menu-link'>Solutions</a>
+        <a href='#' className='se-menu-link'>Solutions</a>
         <div className='sc-menu-popover'>
           <div className='se-nav-header'>Solutions</div>
           <div className='se-nav-item'><Link href='/publishing'><a>Journal Publishing</a></Link></div>
