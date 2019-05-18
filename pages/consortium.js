@@ -38,6 +38,9 @@ export default function Consortium () {
             <ListItem headline='Persistence'>
               Substance.js and Texture will be hosted and available long-term.
             </ListItem>
+            <ListItem headline='Transparency'>
+              Decisions are made in a transparent manner, with regular communication about current and upcoming development.
+            </ListItem>
           </List>
         </Section>
         <Section headline='Become a member'>
