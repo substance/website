@@ -755,6 +755,7 @@ html {
 }
 
 .sm-mobile .sc-footer .se-footer-container .se-footer-menu .se-col {
+  width: 100%;
   margin: 0 var(--half-spacing) 0 0;
 }
 
