@@ -44,7 +44,7 @@ export default function Consortium () {
           </List>
         </Section>
         <Section headline='Become a member'>
-          <p>We very open to welcome new members who are commited to integrate Texture into their workflows and support its development. Please <Link href='/contact'><a>contact us</a></Link> and we’ll set up a call to discuss how to get you on board.</p>
+          <p>We are very open to welcome new members who are commited to integrate Texture into their workflows and support its development. Please <Link href='/contact'><a>contact us</a></Link> and we’ll set up a call to discuss how to get you on board.</p>
         </Section>
       </Body>
     </Layout>
