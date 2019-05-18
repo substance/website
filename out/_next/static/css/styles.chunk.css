@@ -696,7 +696,7 @@ html {
 
 .sm-mobile .sc-menu {
   flex-direction: column;
-  margin: 0 var(--half-spacing);
+  margin: 0;
 }
 
 .sm-mobile .sc-menu a {
@@ -727,7 +727,7 @@ html {
 }
 
 .sm-mobile .sc-header .se-header-container {
-  padding: var(--half-spacing) 0;
+  padding: 0;
 }
 
 .sm-mobile .sc-header .se-header-container .se-header-navbar {
@@ -781,6 +781,14 @@ html {
 .sm-mobile .sc-contributor .se-image {
   text-align: center;
   margin: var(--half-spacing);
+}
+
+.sm-mobile .sc-card .se-card-title {
+  margin-top: 0;
+}
+
+.sm-mobile .sc-card .se-card-content {
+  margin-bottom: 0;
 }
 /* http://meyerweb.com/eric/tools/css/reset/
    v4.0 | 20180602
