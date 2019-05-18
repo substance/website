@@ -27,15 +27,15 @@ function SubstanceMenu (props) {
         <a href='#' className={'se-menu-link' + (props.activeMenu === 'solutions' ? ' sm-active' : '')}>Solutions</a>
         <div className='sc-menu-popover'>
           <div className='se-nav-header'>Solutions</div>
-          <div className='se-nav-item'><Link href='/publishing'><a>Journal Publishing</a></Link></div>
-          <div className='se-nav-item'><Link href='/repro-docs'><a>Reproducible Documents</a></Link></div>
+          <div className='se-nav-item'><Link href='/publishing'><a>Journal publishing</a></Link></div>
+          <div className='se-nav-item'><Link href='/repro-docs'><a>Reproducible documents</a></Link></div>
         </div>
       </div>
       <div className='sc-menu-link'>
         <a href='#' className={'se-menu-link' + (props.activeMenu === 'company' ? ' sm-active' : '')}>Company</a>
         <div className='sc-menu-popover'>
           <div className='se-nav-header'>Company</div>
-          <div className='se-nav-item'><Link href='/story'><a>Our Story</a></Link></div>
+          <div className='se-nav-item'><Link href='/story'><a>Our story</a></Link></div>
           <div className='se-nav-item'><Link href='/consortium'><a>Consortium</a></Link></div>
           <div className='se-nav-item'><Link href='/contact'><a>Contact</a></Link></div>
         </div>
