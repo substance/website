@@ -347,7 +347,6 @@ html {
 
 .sc-footer .se-footer-container .se-footer-second-menu {
   display: flex;
-  padding: 0 var(--half-spacing);
   color: #bababa;
 }
 
@@ -727,6 +726,14 @@ html {
 
 .sm-mobile .sc-footer .sc-substance-logo {
   display: none;
+}
+
+.sm-mobile .sc-footer .se-footer-container .se-footer-second-menu {
+  padding: 0 var(--half-spacing);
+}
+
+.sm-mobile .sc-footer .se-footer-container .se-copyright-menu {
+  flex-direction: column;
 }
 
 .sm-mobile .sc-footer .se-footer-container .se-copyright-menu .se-item {
