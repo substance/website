@@ -11080,7 +11080,7 @@ function Terms() {
 
 /***/ }),
 
-/***/ 9:
+/***/ 1:
 /*!********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fterms&absolutePagePath=%2FUsers%2Fmichael%2Fprojects%2Fsubstance%2Fwebsite%2Fpages%2Fterms.js ***!
   \********************************************************************************************************************************************/
@@ -11103,5 +11103,5 @@ module.exports = dll_55dc4e2ecf7824085104;
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js","styles"]]]));;
+},[[1,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=terms.js.map
