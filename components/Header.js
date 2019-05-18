@@ -31,12 +31,12 @@ function SubstanceMenu (props) {
           <div className='se-nav-item'><Link href='/repro-docs'><a>Reproducible Documents</a></Link></div>
         </div>
       </div>
-      <div class='sc-menu-link'>
+      <div className='sc-menu-link'>
         <Link href='/story'>
           <a className={'se-menu-link' + (props.activeMenu === 'our-story' ? ' sm-active' : '')}>Our Story</a>
         </Link>
       </div>
-      <div class='sc-menu-link'>
+      <div className='sc-menu-link'>
         <Link href='/contact'>
           <a className={'se-menu-link' + (props.activeMenu === 'contact' ? ' sm-active' : '')}>Contact</a>
         </Link>
