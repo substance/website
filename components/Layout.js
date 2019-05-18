@@ -31,7 +31,7 @@ export default class Layout extends Component {
     return (
       <div className={'sc-layout ' + (state.isMobile ? 'sm-mobile' : '')}>
         <Head>
-          <title>{props.title} • Substance</title>
+          <title>{props.title ? props.title + ' • Substance' : 'Substance'}</title>
           <meta charSet='utf-8' />
           <meta name='viewport' content='initial-scale=1.0, width=device-width' />
           <meta name='description' content='Substance fills the gap between writing and publishing research.' />

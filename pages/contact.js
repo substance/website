@@ -5,7 +5,7 @@ import Teaser from '../components/Teaser'
 
 export default function Contact () {
   return (
-    <Layout title='Contact' activeMenu='contact'>
+    <Layout title='Contact' activeMenu='company'>
       <Teaser title='Contact' />
       <Body>
         <Section headline='Email'>

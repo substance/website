@@ -7,7 +7,7 @@ import Partners from '../components/Partners'
 
 export default function Index () {
   return (
-    <Layout title='Our Mission'>
+    <Layout>
       <Teaser headline='Substance fills the gap between writing and publishing research.'>
         <div className='se-main-figure'>
           <div className='se-circle'>Authors</div>

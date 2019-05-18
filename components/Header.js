@@ -32,14 +32,13 @@ function SubstanceMenu (props) {
         </div>
       </div>
       <div className='sc-menu-link'>
-        <Link href='/story'>
-          <a className={'se-menu-link' + (props.activeMenu === 'our-story' ? ' sm-active' : '')}>Our Story</a>
-        </Link>
-      </div>
-      <div className='sc-menu-link'>
-        <Link href='/contact'>
-          <a className={'se-menu-link' + (props.activeMenu === 'contact' ? ' sm-active' : '')}>Contact</a>
-        </Link>
+        <a href='#' className={'se-menu-link' + (props.activeMenu === 'company' ? ' sm-active' : '')}>Company</a>
+        <div className='sc-menu-popover'>
+          <div className='se-nav-header'>Company</div>
+          <div className='se-nav-item'><Link href='/story'><a>Our Story</a></Link></div>
+          <div className='se-nav-item'><Link href='/consortium'><a>Consortium</a></Link></div>
+          <div className='se-nav-item'><Link href='/contact'><a>Contact</a></Link></div>
+        </div>
       </div>
     </div>
   )
