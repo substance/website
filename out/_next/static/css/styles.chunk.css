@@ -240,11 +240,6 @@ html {
 }
 
 .sc-header.sm-expanded  {
-  height: 100%;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
   z-index: 99;
   background: #fff;
   color: #000;
@@ -781,6 +776,10 @@ html {
 .sm-mobile .sc-contributor .se-image {
   text-align: center;
   margin: var(--half-spacing);
+}
+
+.sm-mobile .sc-card {
+  margin-right: 0;
 }
 
 .sm-mobile .sc-card .se-card-title {
