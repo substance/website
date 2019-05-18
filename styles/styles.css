@@ -750,7 +750,20 @@ html {
 }
 
 .sm-mobile .sc-footer .se-footer-container .se-footer-menu {
-  font-size: var(--medium-font-size);
+  flex-direction: row;
+  padding-bottom: var(--half-spacing);
+}
+
+.sm-mobile .sc-footer .se-footer-container .se-footer-menu .se-col {
+  margin: 0 var(--half-spacing) 0 0;
+}
+
+.sm-mobile .sc-footer .se-footer-container .se-footer-menu .se-col:first-child {
+  display: none;
+}
+
+.sm-mobile .sc-footer .se-footer-container .se-footer-menu .se-col:last-child {
+  margin: 0;
 }
 
 .sm-mobile .sc-footer .se-footer-container .se-footer-menu .sc-substance-logo img {
