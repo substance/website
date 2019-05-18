@@ -34,6 +34,8 @@ export default class Layout extends Component {
           <title>{props.title} • Substance</title>
           <meta charSet='utf-8' />
           <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+          <meta name='description' content='Substance fills the gap between writing and publishing research.' />
+          <link rel='shortcut icon' href='/static/images/favicon.ico' type='image/x-icon' />
         </Head>
         <Header isMobile={state.isMobile} activeMenu={props.activeMenu} />
         {props.children}

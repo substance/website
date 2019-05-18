@@ -304,13 +304,14 @@ html {
 */
 
 .sc-footer {
+  max-width: var(--content-width);
+  margin: 0 auto;
   padding: var(--double-spacing) var(--default-spacing);
   background: #fff;
 }
 
 .sc-footer .se-footer-container {
-  max-width: var(--content-width);
-  margin: 0 auto;
+  margin: 0 var(--default-spacing);
   font-size: 12px;
   font-weight: 500;
 }
