@@ -30,16 +30,13 @@ export default function Consortium () {
               Substance.js and Texture will continue to be licensed as open source.
             </ListItem>
             <ListItem headline='Reliability'>
-              Reliability: Ensure ongoing support and maintenance of Texture and Substance.js.
+              Ensure ongoing support and maintenance of Texture and Substance.js.
             </ListItem>
             <ListItem headline='Support'>
               The tools will be supported with quality documentation and trainings.
             </ListItem>
             <ListItem headline='Persistence'>
               Substance.js and Texture will be hosted and available long-term.
-            </ListItem>
-            <ListItem headline='Transparency'>
-              Done correctly, with an advisory board and reports on finances and key decisions
             </ListItem>
           </List>
         </Section>
