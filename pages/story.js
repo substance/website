@@ -9,12 +9,11 @@ export default function Story () {
   return (
     <Layout title='Our Story' activeMenu='company'>
       <Teaser title='Our Story'>
-        <div className='se-empty-teaser' />
-      </Teaser>
-      <Body>
-        <div className='se-shifted-image'>
+        <div className='se-teaser-image sm-with-padding'>
           <img className='se-image' src='/static/images/texture-launch.png' />
         </div>
+      </Teaser>
+      <Body>
         <Section>
           <p>We are specialists for web-based editing solutions. Substance started as a side project in 2011 and since we are working on building the best tools to allow collaborative writing and sharing of structured content. We believe that communicating findings can be easy and technology can help us, instead of distracting us.</p>
         </Section>
