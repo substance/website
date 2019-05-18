@@ -9,7 +9,8 @@ export default class Layout extends Component {
   constructor () {
     super()
     this.state = {
-      isMobile: false
+      isMobile: false,
+      menuExpanded: false
     }
   }
 
@@ -26,10 +27,15 @@ export default class Layout extends Component {
     this.setState({ isMobile: window.innerWidth < 640 })
   }
 
+  toggleMobileMenu () {
+    const menuExpanded = this.state.menuExpanded
+    this.setState({ menuExpanded: !menuExpanded })
+  }
+
   render () {
     const { props, state } = this
     return (
-      <div className={'sc-layout ' + (state.isMobile ? 'sm-mobile' : '')}>
+      <div className={'sc-layout ' + (state.isMobile ? 'sm-mobile' : '') + (state.menuExpanded ? ' sm-menu-active' : '')}>
         <Head>
           <title>{props.title ? props.title + ' • Substance' : 'Substance'}</title>
           <meta charSet='utf-8' />
@@ -37,7 +43,7 @@ export default class Layout extends Component {
           <meta name='description' content='Substance fills the gap between writing and publishing research.' />
           <link rel='shortcut icon' href='/static/images/favicon.ico' type='image/x-icon' />
         </Head>
-        <Header isMobile={state.isMobile} activeMenu={props.activeMenu} />
+        <Header isMobile={state.isMobile} expanded={state.menuExpanded} toggleMobileMenu={this.toggleMobileMenu.bind(this)} ref='header' />
         {props.children}
         <Footer />
       </div>

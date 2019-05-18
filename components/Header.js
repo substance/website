@@ -63,11 +63,13 @@ function SubstanceMobileMenu () {
       <div className='sm-divider' />
       <div className='se-second-row sm-columns'>
         <div className='se-col'>
+          <div className='se-nav-header'>Company</div>
           <div className='se-nav-item'><Link href='/story'><a>Our Story</a></Link></div>
-          <div className='se-nav-item'><Link href='/terms'><a>Terms</a></Link></div>
+          <div className='se-nav-item'><Link href='/consortium'><a>Consortium</a></Link></div>
+          <div className='se-nav-item'><Link href='/contact'><a>Contact</a></Link></div>
         </div>
         <div className='se-col'>
-          <div className='se-nav-item'><Link href='/contact'><a>Contact</a></Link></div>
+          <div className='se-nav-item'><Link href='/terms'><a>Terms</a></Link></div>
           <div className='se-nav-item'><Link href='/privacy'><a>Privacy</a></Link></div>
         </div>
       </div>
@@ -76,34 +78,22 @@ function SubstanceMobileMenu () {
 }
 
 export default class Header extends Component {
-  constructor () {
-    super()
-    this.state = {
-      expanded: false
-    }
-  }
-
-  toggleMobileMenu () {
-    const expanded = this.state.expanded
-    this.setState({ expanded: !expanded })
-  }
-
   render () {
-    const { props, state } = this
+    const props = this.props
     return (
-      <div className={'sc-header ' + (state.expanded ? 'sm-expanded' : '')}>
+      <div className={'sc-header ' + (props.expanded ? 'sm-expanded' : '')}>
         <div className='se-header-container'>
           <div className='se-header-navbar'>
-            <SubstanceLogo inverted={state.expanded} />
+            <SubstanceLogo inverted={props.expanded} />
             <div className='sm-spacer' />
             {props.isMobile ? (
-              <div className='se-hamburger' onClick={this.toggleMobileMenu.bind(this)}><i className='fa fa-bars' /></div>
+              <div className='se-hamburger' onClick={props.toggleMobileMenu}><i className='fa fa-bars' /></div>
             ) : (
               <SubstanceMenu activeMenu={props.activeMenu} />
             )}
           </div>
           {(() => {
-            if (state.expanded) {
+            if (props.expanded) {
               return <SubstanceMobileMenu activeMenu={props.activeMenu} />
             }
           })()}
