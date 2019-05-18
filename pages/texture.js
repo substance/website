@@ -8,7 +8,7 @@ import ReadMore from '../components/ReadMore'
 
 export default function Texture () {
   return (
-    <Layout title='Texture'>
+    <Layout title='Texture' activeMenu='products'>
       <Teaser title='Texture' headline='A visual editor for research.'>
         <div className='se-teaser-image'>
           <img className='se-image' src='/static/images/texture-manuscript.png' />
@@ -23,7 +23,7 @@ export default function Texture () {
           <p>Texture feels like the word processor you are used to. It allows structured editing of scientific content and includes support for Figures, Tables, References, Supplementary files and more.</p>
         </Section>
         <Section headline='Document Archive'>
-          <p>Texture uses an open file format (.dar) for storage. It is essentially a zip archive, containing the manuscript as a standard JATS XML file, as well as additional assets such as images and data files.</p>
+          <p>Texture uses an <Link href='https://github.com/substance/texture/releases'><a>open file format</a></Link> (.dar) for storage. It is essentially a zip archive, containing the manuscript as a standard JATS XML file, as well as additional assets such as images and data files.</p>
         </Section>
         <Section headline='Supporting an end to end publishing workflow'>
           <p>Texture is the first scientific editor, that is designed for publishers and authors. The idea is that interaction between authors and journals becomes seamless, improving the overall speed of digital publishing.</p>

@@ -136,6 +136,10 @@ html {
   text-decoration: none;
 }
 
+.sc-menu a.sm-active {
+  text-decoration: underline;
+}
+
 .sc-menu-popover {
   display: none;
   font-size: var(--tiny-font-size);
@@ -635,6 +639,7 @@ html {
   margin: 0 var(--half-spacing);
   font-family: var(--heading-font);
   font-size: var(--text-font-size);
+  font-weight: var(--heading-font-weight);
   border-radius: 6px;
   cursor: pointer;
 }

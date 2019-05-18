@@ -7,7 +7,7 @@ import ReadMore from '../components/ReadMore'
 
 export default function DAR () {
   return (
-    <Layout title='DAR'>
+    <Layout title='DAR' activeMenu='products'>
       <Teaser title='DAR' headline='A standards-compliant archive format for research.'>
         <div className='se-teaser-image'>
           <img className='se-image' src='/static/images/dar.png' />

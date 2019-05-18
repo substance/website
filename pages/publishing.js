@@ -8,7 +8,7 @@ import { FAQ, FAQItem } from '../components/FAQ'
 
 export default function Publishing () {
   return (
-    <Layout title='Journal publishing'>
+    <Layout title='Journal publishing' activeMenu='solutions'>
       <Teaser title='Journal publishing' headline='Make the switch to DAR and Texture.'>
         <div className='se-teaser-image'>
           <img className='se-image' src='/static/images/texture-cards.png' />

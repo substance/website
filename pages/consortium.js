@@ -8,7 +8,7 @@ import Partners from '../components/Partners'
 
 export default function Consortium () {
   return (
-    <Layout title='Substance Consortium'>
+    <Layout title='Substance Consortium' activeMenu='our-story'>
       <Teaser title='Substance Consortium'>
         <div className='se-teaser-quote'>
           <div className='se-teaser-quote-content'>“We recognize that web-based multi-party editing of structured documents is needed in the authoring, editing, and production workflows of knowledge creation, and believe that we can best ensure Substance serves all these needs by coming together to support them. We hope that by making this commitment, others will recognize that there is more to gain from jointly supporting Substance’s work rather than building local or custom solutions that cannot easily be used by others.”</div>
