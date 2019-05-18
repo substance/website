@@ -11168,7 +11168,7 @@ function Consortium() {
 
 /***/ }),
 
-/***/ 8:
+/***/ 9:
 /*!**************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fconsortium&absolutePagePath=%2FUsers%2Fdanielbeilinson%2FProjects%2Fsubstance%2Fwebsite%2Fpages%2Fconsortium.js ***!
   \**************************************************************************************************************************************************************/
@@ -11191,5 +11191,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js","styles"]]]);
+},[[9,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=consortium.js.map
