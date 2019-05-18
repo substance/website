@@ -233,6 +233,8 @@ html {
 }
 
 .sc-header .se-header-container .se-header-navbar .se-hamburger {
+  height: 1.5rem;
+  line-height: 1.3rem;
   padding: var(--half-spacing);
   cursor: pointer;
 }
@@ -250,6 +252,12 @@ html {
 
 .sc-header.sm-expanded .se-header-container .se-header-navbar {
   color: #000;
+}
+
+.sm-menu-active .sc-teaser,
+.sm-menu-active .sc-body,
+.sm-menu-active .sc-footer {
+  display: none;
 }
 
 /* 
@@ -271,7 +279,7 @@ html {
 .sc-teaser .se-teaser-title {
   font-weight: var(--heading-font-weight);
   font-family: var(--heading-font);
-  line-height: var(--default-line-height);
+  line-height: var(--heading-line-height);
   font-size: var(--title-font-size);
 }
 
@@ -280,7 +288,7 @@ html {
   font-size: var(--medium-font-size);
   font-weight: var(--heading-font-weight);
   line-height: var(--default-line-height);
-  padding: 0 var(--double-spacing) var(--default-spacing);
+  padding: var(--half-spacing) var(--double-spacing);
 }
 
 .sc-teaser .se-teaser-image.sm-with-padding {
@@ -669,6 +677,22 @@ html {
   width: auto;
 }
 
+.sm-mobile .sc-section {
+  margin: var(--half-spacing);
+}
+
+.sm-mobile .sc-section .se-section-headline {
+  margin: var(--default-spacing) 0 var(--half-spacing);
+}
+
+.sm-mobile .sc-partners > .sc-partner-logo {
+  padding: 0 0.5rem;
+}
+
+.sm-mobile .sc-partners > .sc-partner-logo img {
+  height: 50px;
+}
+
 .sm-mobile .sc-menu {
   flex-direction: column;
   margin: 0 var(--half-spacing);
@@ -680,6 +704,10 @@ html {
 
 .sm-mobile .sc-menu .sm-columns {
   flex-direction: row;
+}
+
+.sm-mobile .sc-menu .sm-columns .se-col {
+  padding: 0 var(--half-spacing) ;
 }
 
 .sm-mobile .sc-menu .se-first-row {
@@ -695,6 +723,22 @@ html {
 
 .sm-mobile .sc-menu .se-nav-item {
   margin-bottom: var(--half-spacing);
+}
+
+.sm-mobile .sc-header .se-header-container {
+  padding: var(--half-spacing) 0;
+}
+
+.sm-mobile .sc-teaser .se-teaser-title {
+  padding: 0 var(--half-spacing);
+}
+
+.sm-mobile .sc-teaser .se-teaser-headline {
+  padding: var(--half-spacing);
+}
+
+.sm-mobile .sc-footer {
+  padding: var(--half-spacing) var(--default-spacing);
 }
 
 .sm-mobile .sc-footer .se-footer-container {
