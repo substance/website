@@ -9,7 +9,7 @@ import ReadMore from '../components/ReadMore'
 export default function ReproDocs () {
   return (
     <Layout title='Reproducible Documents' activeMenu='solutions'>
-      <Teaser title='Reproducible documents' headline='Realising reproducible documents with Texture and Stencila.'>
+      <Teaser title='Reproducible Documents' headline='Realising reproducible documents with Texture and Stencila.'>
         <div className='se-teaser-image'>
           <img className='se-image' src='/static/images/reproducable-manuscript.png' />
         </div>
