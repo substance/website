@@ -28,6 +28,9 @@ export default function DAR () {
             <ListItem headline='Self-contained'>
               All kinds of assets, such as images, data files, additional documents are directly included in a DAR file.
             </ListItem>
+            <ListItem headline='Extensible'>
+              It is possible to realise custom content through Texture plugins. For instance Stencila uses an extension to provide offer code cells.
+            </ListItem>
           </List>
         </Section>
         <Section headline='Learn more'>
