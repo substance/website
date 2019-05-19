@@ -43,7 +43,7 @@ export default function Publishing () {
               Full article can be edited in a familiar word processor interface. No longer manual changes to the JATS-XML source have to be made.
             </ListItem>
             <ListItem headline='Automatic formatting and label generation'>
-              With Texture, references are formatted automatically. Furthermore, labels cross references,  figures, tables and footnotes are generated automatically. No longer those have to be manually checked.
+              With Texture, references are formatted automatically. Furthermore, labels for cross references, figures, tables and footnotes are generated automatically. No longer those have to be manually checked.
             </ListItem>
             <ListItem headline='A single source of information'>
               Article is represented in DAR format through the whole publishing process. This makes costly conversion processes obsolete.
