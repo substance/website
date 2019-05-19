@@ -20,30 +20,30 @@ export default function Texture () {
       </Teaser>
       <Body>
         <Section headline='A familiar editing experience'>
-          <p>Texture feels like the word processor you are used to. It allows structured editing of scientific content and includes support for Figures, Tables, References, Supplementary files and more.</p>
+          <p>Texture feels like the word processor you are used to. It allows structured editing of scientific content and includes support for figures, tables, references, supplementary files and more.</p>
         </Section>
         <Section headline='Document Archive'>
           <p>Texture uses an <Link href='https://github.com/substance/texture/releases'><a>open file format</a></Link> (.dar) for storage. It is essentially a zip archive, containing the manuscript as a standard JATS XML file, as well as additional assets such as images and data files.</p>
         </Section>
         <Section headline='Supporting an end to end publishing workflow'>
-          <p>Texture is the first scientific editor, that is designed for publishers and authors. The idea is that interaction between authors and journals becomes seamless, improving the overall speed of digital publishing.</p>
+          <p>Texture is the first scientific editor designed for publishers and authors. The idea is to facilitate seamless interaction between authors and journals, improving the overall speed of digital publishing.</p>
           <Cards>
             <Card title='Authoring'>
-              Scientist uses Texture to author modern web-ready publication.
+              Scientists use Texture to author modern web-ready publication.
             </Card>
             <Card title='Peer review'>
-              Publisher receives submission as a .dar file. Texture is used by reviewers to add comments and by authors to submit a revised version.
+              Publishers receive submissions as a .dar file. Reviewers use Texture to add comments, after which authors submit a revised version.
             </Card>
             <Card title='Production'>
-              Journal production team uses Texture to add metadata and perform assisted quality checking of the content.
+              Journal production teams use Texture to add metadata and perform assisted quality checking of the content.
             </Card>
             <Card title='Author proofing'>
-              Author logs in at the publisher’s website and uses Texture to respond to publisher queries, make final changes and approve it for publication.
+              Authors log in through the publisher’s website and use Texture to respond to publisher queries, make final changes and approve it for publication.
             </Card>
           </Cards>
         </Section>
         <Section headline='Co-designed by scientists and publishers'>
-          <p>Scientists and publishers are helping us to define new features, that best support their daily use-cases. With their input we want to take Texture further and help remove the technical pain points from publishing. So that scientists can focus fully on their research, and publishers can focus on ensuring high quality content.</p>
+          <p>Scientists and publishers are helping us define the features that best support their daily use-cases. Their input will take Texture further and help remove the technical difficulties from publishing. That way scientists can focus their full attention on research and publishers can focus on ensuring high quality content.</p>
         </Section>
         <Section headline='Learn more'>
           <ReadMore href='/publishing' title='Texture for publishers' />
