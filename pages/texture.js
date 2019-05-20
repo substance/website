@@ -42,8 +42,8 @@ export default function Texture () {
             </Card>
           </Cards>
         </Section>
-        <Section headline='Co-designed by scientists and publishers'>
-          <p>Scientists and publishers are helping us define the features that best support their daily use-cases. Their input will take Texture further and help remove the technical difficulties from publishing. That way scientists can focus their full attention on research and publishers can focus on ensuring high quality content.</p>
+        <Section headline='Collaboratively designed by scientists and publishers'>
+          <p>Scientists and publishers are helping us define the features that best support their daily needs. Their input will take Texture further and help remove the technical difficulties from publishing. That way scientists can focus their full attention on research and publishers can focus on ensuring high quality content.</p>
         </Section>
         <Section headline='Learn more'>
           <ReadMore href='/publishing' title='Texture for publishers' />

@@ -16,8 +16,8 @@ export default function ReproDocs () {
       </Teaser>
       <Body>
         <Section headline='Adding reproducibility to the academic manuscript'>
-          <p>In science calls for transparency and reproducibility are becoming louder. Researchers want to share not only their final findings but the underlying data and the methods used to generate the results.</p>
-          <p>Substance in collaboration with eLife and Stencila is addressing this by enabling reproducible elements in the Texture editor with the following goals in mind.</p>
+          <p>Calls for transparency and reproducibility in science are becoming louder. Researchers want to share not only their final findings but also the underlying data and the methods used to generate the results.</p>
+          <p>In collaboration with eLife and Stencila, Substance is addressing this need by enabling reproducible elements in the Texture editor with the following goals in mind:</p>
         </Section>
         <Section>
           <List>
@@ -25,7 +25,7 @@ export default function ReproDocs () {
               Source data is readily available in the publication and can be explored by the reader.
             </ListItem>
             <ListItem headline='Code cells'>
-              Code cells allow live computations right in the document authoring environment and reveal the scientific methods used.
+              Code cells allow live computations directly in the document authoring environment and reveal the scientific methods used.
             </ListItem>
             <ListItem headline='Reproducible figures'>
               The code and data used to generate a figure can be revealed and changed.
@@ -33,10 +33,10 @@ export default function ReproDocs () {
           </List>
         </Section>
         <Section headline='An open standard for representing reproducible research documents'>
-          The creation of an open standard for the exchange, submission and publication of reproducible documents is critical for widespread adoption by academic publishers, and will be beneficial for the discovery and persistence of research reported in this form. Therefore, Substance in collaboration with Stencila is developing an extension to the <Link href='/dar'><a>DAR</a></Link> format, which will allow the data, code and computed outputs (graphs, statistical results, tables) embedded in a reproducible document to be recognised and presented online as an enhanced version of the published research article. In order to do this, we are representing these assets in JATS XML, the publishing standard through which research manuscripts are processed through the publishing workflow.
+          The creation of open standard for exchange, submission and publication of reproducible documents is critically needed. Its widespread adoption within the academic publishing world would benefit the discoveries and persistence of research reported in this form. Substance in collaboration with Stencila meets this need by developing an extension to the <Link href='/dar'><a>DAR</a></Link> format. This will allow the data, code and computed outputs (graphs, statistical results, tables) embedded in a reproducible document to be recognised and presented online as an enhanced version of the published research article. In order to do this, we are representing these assets in JATS XML, the publishing standard through which research manuscripts are processed through the publishing workflow.
         </Section>
         <Section headline='Stencila'>
-          <Link href='https://stenci.la/'><a>Stencila</a></Link> is an open source platform, which provides easy-to-access computation environments for reproducible documents in the <Link href='/dar'><a>DAR</a></Link> format. Stencila makes reproducibility an integral part of a research publication (with live code execution) rather than attaching supplementary programming notebooks. Stencila however is capable of reading and writing existing well-established notebook formats such as Jupyter, RMarkdown etc.
+          <Link href='https://stenci.la/'><a>Stencila</a></Link> is an open source platform, which provides easy-to-access computation environments for reproducible documents in the <Link href='/dar'><a>DAR</a></Link> format. Stencila makes reproducibility an integral part of a research publication (with live code execution) rather than attaching supplementary programming notebooks. Stencila is also capable of reading and writing existing well-established notebook formats such as Jupyter, RMarkdown etc.
         </Section>
         <Section headline='Stencila in Texture'>
         Substance is developing a Stencila plugin for Texture, which enables reproducible content types in the editor. It provides a seamless editing experience for both regular text and source code.

@@ -15,11 +15,11 @@ export default function Story () {
       </Teaser>
       <Body>
         <Section>
-          <p>We are specialists for web-based editing solutions. Substance started as a side project in 2011 and since we are working on building the best tools to allow collaborative writing and sharing of structured content. We believe that communicating findings can be easy and technology can help us, instead of distracting us.</p>
+          <p>We are specialists for web-based editing solutions. Substance started as a side project in 2011, and we have never stopped working on building the best tools to allow collaborative writing and sharing of structured content. We believe that communicating findings can be easy and that instead of distracting us, technology should help achieve this.</p>
         </Section>
         <Section headline='Founders'>
           <Contributor img='michael.jpeg'>
-            In 2011 Michael Aufreiter undertook the creation of an open source writing platform called Substance.io (<Link href='https://vimeo.com/27730207'><a>see video</a></Link>). Dissatisfied with LaTeX, Microsoft Word and various Markdown flavours for writing his master thesis, he decided to work on an alternative that put semantics first, and let the writer focus on content and structure while leaving formatting and style entirely to the system.
+            In 2011 Michael Aufreiter undertook the creation of an open source writing platform called Substance.io (<Link href='https://vimeo.com/27730207'><a>see video</a></Link>). Dissatisfied with Microsoft Word, LaTeX and other markup formats for writing his master thesis, he decided to work on an alternative that put semantics first, and let the writer focus on content and structure while leaving formatting and style entirely to the system.
           </Contributor>
           <Contributor img='oliver.jpeg'>
             In 2013 Oliver Buchtala joined the project and together they started turning their hobby project into a real business. In 2014, Substance Software GmbH was founded to provide consulting around the open source project, which turned from a platform into a Javascript library for building web editors.
