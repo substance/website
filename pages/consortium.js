@@ -23,8 +23,8 @@ export default function Consortium () {
           <Partners texture='true' />
         </Section>
         <Section headline='Goals'>
-          <p>The goal of the Substance Consortium is simple: to ensure the continued development and support of Substance by creating a community of stakeholders who will support and engage with Substance on an ongoing basis. By ensuring the long-term support of Substance, organizations that want to use Substance-based tools can be confident that it will be properly supported in the future. And, the Consortium is an acknowledgement that the organizations who use these tools as critical infrastructure have a responsibility to contribute to their upkeep.</p>
-          <p>In July 2016 the members met in Montreal to discuss the goals, structure, and principles of the Substance Consortium. The group articulated these foundational principles:</p>
+          <p>The goal of the Substance Consortium is simple: to ensure the continued development and support of Substance by creating a community of stakeholders who will support and engage with Substance on an ongoing basis. Achieving this ensures that organizations that want to use Substance-based tools can be confident that it will be properly supported in the future. In addition, the Consortium is an acknowledgement that the organizations who use these tools as critical infrastructure have a responsibility to contribute to their upkeep.</p>
+          <p>In July 2016 Consoritum members met in Montreal to discuss its goals, structure, and principles. The group articulated these foundational principles:</p>
           <List>
             <ListItem headline='Open Source'>
               Substance.js and Texture will continue to be licensed as open source.
@@ -44,7 +44,7 @@ export default function Consortium () {
           </List>
         </Section>
         <Section headline='Become a member'>
-          <p>We are very open to welcome new members who are commited to integrate Texture into their workflows and support its development. Please <Link href='/contact'><a>contact us</a></Link> and we’ll set up a call to discuss how to get you on board.</p>
+          <p>We are open to welcome new members who are committed to integrating Texture into their workflows and to support its ongoing development. Please <Link href='/contact'><a>contact us</a></Link> and we will set up a call to discuss how to get you on board.</p>
         </Section>
       </Body>
     </Layout>

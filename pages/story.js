@@ -19,15 +19,15 @@ export default function Story () {
         </Section>
         <Section headline='Founders'>
           <Contributor img='michael.jpeg'>
-            In 2011 Michael Aufreiter started an effort to create an open source writing platform called Substance.io (<Link href='https://vimeo.com/27730207'><a>see video</a></Link>). He was dissatisfied with LaTeX, Microsoft Word and various Markdown flavours for writing his master thesis and decided to work on an alternative that puts semantics first, and lets the writer focus on content and structure while leaving formatting and style to the system entirely.
+            In 2011 Michael Aufreiter undertook the creation of an open source writing platform called Substance.io (<Link href='https://vimeo.com/27730207'><a>see video</a></Link>). Dissatisfied with LaTeX, Microsoft Word and various Markdown flavours for writing his master thesis, he decided to work on an alternative that put semantics first, and let the writer focus on content and structure while leaving formatting and style entirely to the system.
           </Contributor>
           <Contributor img='oliver.jpeg'>
-            In the year 2013 Oliver Buchtala joined the project and together they started turning a then-hobby project into a real business. In 2014 Substance Software GmbH was founded to provide consulting around the open source project, which turned from a platform into a Javascript library for building web editors.
+            In 2013 Oliver Buchtala joined the project and together they started turning their hobby project into a real business. In 2014, Substance Software GmbH was founded to provide consulting around the open source project, which turned from a platform into a Javascript library for building web editors.
           </Contributor>
         </Section>
         <Section headline='Contributors'>
           <Contributor img='daniel.jpeg'>
-            Daniel Beilinson is a Substance contributor since the very beginning. He used Substance himself to build <Link href='https://github.com/archivist/archivist'><a>Archivist</a></Link>, a platform to publish interactive historical documents. Today he helps us building Texture, as well as contributing to Substance.js.
+            Daniel Beilinson has been a Substance contributor since the very beginning. He used Substance to build <Link href='https://github.com/archivist/archivist'><a>Archivist</a></Link>, a platform to publish interactive historical documents. Today he is both helping us building Texture and contributing to Substance.js.
           </Contributor>
         </Section>
       </Body>
