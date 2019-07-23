@@ -1,5 +1,6 @@
 const express = require('express')
 const next = require('next')
+// const api = require('./app/api')
 
 const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
@@ -15,6 +16,9 @@ app
       const queryParams = { title: req.params.id }
       app.render(req, res, actualPage, queryParams)
     })
+
+    // Connect the Substance API
+    // api(server)
 
     server.get('*', (req, res) => {
       return handle(req, res)
