@@ -2,13 +2,19 @@ function api (server) {
 
   // Login
   // -------------
-  server.get('/api/authenticate', (req, res) => {
+  server.post('/api/authenticate', (req, res) => {
     res.json(AUTHENTICATED_STUB)
+  })
+
+  // Signup
+  // -------------
+  server.post('/api/register', (req, res) => {
+    res.json({"todo": "register-user"})
   })
 
   // User dashboard
   // -------------
-  server.get('/api/dashboard/:username', (req, res) => {
+  server.get('/api/dashboard', (req, res) => {
     res.json(DASHBOARD_STUB)
   })
 
@@ -21,12 +27,14 @@ function api (server) {
   // Read document
   // -------------
   server.get('/api/documents/:username/:document', (req, res) => {
+    // TODO: hard code to load from DOCS_DIR/demo/demo
     res.json({"todo": "raw-archive"})
   })
 
   // Update document
   // -------------
   server.put('/api/documents/:username/:document', (req, res) => {
+    // TODO: hard code to update DOCS_DIR/demo/demo
     res.json({"todo": "update-document"})
   })
 
@@ -40,15 +48,14 @@ function api (server) {
 const DASHBOARD_STUB = {
   "documentCount": 3,
   "documents": [
-    { "title": "Welcome to Substance", "status": "published", "updatedAt": "dummy", "fileSize": "4MB" },
-    { "title": "Open Peer Review", "status": "draft", "updatedAt": "dummy", "fileSize": "2MB" }
+    { "title": "Demo document", "creator": "demo", "name": "demo", "status": "published", "updatedAt": "dummy", "fileSize": "4MB" }
   ]
 }
 
 const AUTHENTICATED_STUB = {
-  "username": "michael",
-  "givenNames": "Michael",
-  "surname": "Aufreiter",
+  "username": "demo",
+  "givenNames": "Frank",
+  "surname": "Demo",
   "sessionId": "dummy-session-id"
 }
 

@@ -1,6 +1,7 @@
 const express = require('express')
 const next = require('next')
-// const api = require('./app/api')
+const api = require('./app/api')
+const appRoutes = require('./app/appRoutes')
 
 const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
@@ -18,7 +19,10 @@ app
     })
 
     // Connect the Substance API
-    // api(server)
+    api(server)
+
+    // Connect the app routes
+    appRoutes(server)
 
     server.get('*', (req, res) => {
       return handle(req, res)
