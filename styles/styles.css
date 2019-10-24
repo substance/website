@@ -3,6 +3,7 @@
   ---------------------------------
 */
 @import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
 @import url('https://use.fontawesome.com/releases/v5.8.2/css/brands.css');
 @import url('https://use.fontawesome.com/releases/v5.8.2/css/solid.css');
 @import url('https://use.fontawesome.com/releases/v5.8.2/css/fontawesome.css');
@@ -10,6 +11,10 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+}
+
+body {
+  background: #F5F6F4;
 }
 
 /*
@@ -22,9 +27,9 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 100vh;
+  min-height: 100vh;
   background: #F5F6F4;
-  font-family: 'PT Serif', serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .sc-layout a {
@@ -49,6 +54,7 @@ html {
 }
 
 .sc-body .se-title {
+  font-family: 'PT Serif', serif;
   font-size: 50px;
   line-height: 48px;
   text-align: center;
@@ -59,7 +65,7 @@ html {
   font-size: 21px;
   line-height: 37px;
   color: #3F3F3F;
-  max-width: 620px;
+  max-width: 700px;
 }
 
 .sc-body .se-teaser p {
