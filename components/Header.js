@@ -16,11 +16,7 @@ export default class Header extends Component {
     const props = this.props
     return (
       <div className='sc-header'>
-        <div className='se-header-container'>
-          <div className='se-header-navbar'>
-            <SubstanceLogo inverted={props.expanded} />
-          </div>
-        </div>
+        <SubstanceLogo inverted={props.expanded} />
       </div>
     )
   }

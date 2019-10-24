@@ -5,14 +5,16 @@ export default function Contact () {
   return (
     <Layout title='Contact'>
       <Body>
-        <h1 className='se-title'>Contact</h1>
-        <div className='sm-centered'>Please contact us via <a href='mailto:info@substance.io'>info@substance.io</a>.</div>
-        <h1 className='se-title'>Our office</h1>
-        <p className='sm-centered'>Substance Software GmbH<br />
-        Harrachstrasse 28<br />
-        4020 Linz, Austria</p>
-        <p className='sm-centered'>Substance Software GmbH is registered in Linz, No. FN 408728x<br />
-        VAT Reg.No.: ATU68395257</p>
+        <div className='se-teaser'>
+          <h1 className='se-title'>Contact</h1>
+          <div className='sm-centered'>Please contact us via <a className='sm-email' href='mailto:info@substance.io'>info@substance.io</a>.</div>
+          <h1 className='se-title'>Our office</h1>
+          <p className='sm-centered'>Substance Software GmbH<br />
+          Harrachstrasse 28<br />
+          4020 Linz, Austria</p>
+          <p className='sm-centered'>Substance Software GmbH is registered in Linz, No. FN 408728x<br />
+          VAT Reg.No.: ATU68395257</p>
+        </div>
       </Body>
     </Layout>
   )
