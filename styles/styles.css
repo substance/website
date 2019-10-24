@@ -12,10 +12,6 @@ html {
   font-size: 62.5%;
 }
 
-body {
-  font-family: 'PT Serif', serif;
-}
-
 /*
   Layout
   ---------------------------------
@@ -28,6 +24,7 @@ body {
   justify-content: space-between;
   height: 100vh;
   background: #F5F6F4;
+  font-family: 'PT Serif', serif;
 }
 
 .sc-layout a {
