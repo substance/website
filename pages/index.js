@@ -12,7 +12,7 @@ export default function Index () {
           <p className='sm-centered'>We believe that you can make a difference in the world by expressing your ideas using words.</p>
           <p className='sm-centered'>Our mission is to remove the obstacles on the way. Writing together can be as seamless as writing alone. We are building Substance so you can “just write” and focus on what you want to say, and nothing else.</p>
           <p className='se-story sm-centered'>
-            <Link href='https://medium.com/@_mql/the-fox-a-story-about-writing-a-story-a20f21492301'>
+            <Link href='https://medium.com/@_mql/the-fox-a-story-about-writing-a-story-a20f21492301?source=friends_link&sk=cefba14b4462777a0bf8710f4903fe34'>
               <a><i className='fas fa-long-arrow-alt-right' /> Read the story</a>
             </Link>
           </p>
