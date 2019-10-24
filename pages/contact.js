@@ -7,7 +7,7 @@ export default function Contact () {
       <Body>
         <div className='se-teaser'>
           <h1 className='se-title'>Contact</h1>
-          <div className='sm-centered'>Please contact us via <a className='sm-email' href='mailto:info@substance.io'>info@substance.io</a>.</div>
+          <div className='sm-centered'>Please contact us via <a className='sm-email' href='mailto:team@substance.io'>team@substance.io</a>.</div>
           <h1 className='se-title'>Our office</h1>
           <p className='sm-centered'>Substance Software GmbH<br />
           Harrachstrasse 28<br />
