@@ -7,7 +7,7 @@ export default function Index () {
     <Layout>
       <Body>
         <div className='se-badge'>Coming soon</div>
-        <h1 className='se-title'>Purposeful writing</h1>
+        <h1 className='se-title'>Just write.</h1>
         <div className='se-teaser'>
           <p className='sm-centered'>We believe that you can make a difference in the world by expressing your ideas using words.</p>
           <p className='sm-centered'>Our mission is to remove the obstacles on the way. Writing together can be as seamless as writing alone. We are building Substance so you can “just write” and focus on what you want to say, and nothing else.</p>
