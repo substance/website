@@ -56,7 +56,7 @@ body {
 .sc-body .se-title {
   font-family: 'PT Serif', serif;
   font-size: 50px;
-  line-height: 48px;
+  line-height: 60px;
   text-align: center;
   margin: 2rem 0;
 }
@@ -84,6 +84,7 @@ body {
 
 .sc-body .se-follow-us {
   font-size: 21px;
+  line-height: 37px;
   margin-bottom: 2rem;
 }
 
@@ -131,6 +132,10 @@ body {
 
 .sc-footer .se-item {
   margin-right: 3rem;
+}
+
+.sm-mobile .sc-footer .se-item {
+  margin-right: 10px;
 }
 
 .sc-footer .se-item a {
